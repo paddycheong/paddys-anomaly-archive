@@ -1,32 +1,57 @@
-# React + TypeScript + Vite
+# ANOMALY ARCHIVE // Curated Oddities & Avant-Garde Buyer Dossier
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Live Production**: [https://paddys-anomaly-archive.ebreyzarc.workers.dev](https://paddys-anomaly-archive.ebreyzarc.workers.dev)  
+> **Source Repository**: [https://github.com/paddycheong/paddys-anomaly-archive](https://github.com/paddycheong/paddys-anomaly-archive)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Automated Weekly Curation Pipeline
 
-## React Compiler
+The Anomaly Archive features a zero-maintenance, automated weekly drop pipeline driven by GitHub Actions and Cloudflare Workers Builds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ⏱️ Cadence & Sourcing Window
+- **Execution Schedule**: **Every Monday at 12:00 PM Tokyo Time (JST / 03:00 UTC)**
+  - Cron: `0 3 * * 1`
+  - GitHub Workflow: `.github/workflows/weekly-curation.yml`
+- **Data Sourcing Window**: **Global Previous Week (Monday 00:00 to Sunday 23:59) Sales Velocity Top 15**
 
-## Expanding the Oxlint configuration
+### 🎯 Mandatory Curation Criteria
+1. **Quantity**: Exactly **15 new specimens** per weekly batch.
+2. **Platform Weight**: **TikTok Shop strictly weighted at 40.0%** (6 of 15 items), with remaining 60% sourced across Amazon, AliExpress, Etsy, Mercari, Best Buy, Coupang, Rakuten, and Allegro.
+3. **Price Floor**: **All individual items strictly have unit price > $100.00 USD**.
+4. **Editorial Integrity (Plan A Telemetry)**: Every cataloged specimen includes:
+   - 3 Interactive Teardown Hotspots (exact percentage pins on product photography)
+   - Field Observation Dossier (Unboxing physical log, haptic feedback, 2-3 honest snags/flaws, curator verdict)
+   - Sourcing Radar & Telemetry (Hunt difficulty 1-5, price spectrum, search keywords, anti-counterfeit warnings, direct outbound link)
+5. **Human-in-the-Loop Review**:
+   - The engine compiles and runs verification tests.
+   - Automatically opens a formatted Pull Request on GitHub with the drop markdown summary.
+   - Upon clicking **Merge pull request**, Cloudflare Workers Builds automatically compiles and deploys the new artifacts in ~20 seconds with zero downtime.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## 🛠️ Tech Stack & Architecture
+
+- **Framework**: React 19 + TypeScript + Vite 8
+- **Styling**: Tailwind CSS v4 + Brutalist Industrial Design System
+- **Hosting & CDN**: Cloudflare Workers Static Assets (`wrangler.jsonc`)
+- **CI/CD**: GitHub Actions + Cloudflare Workers Builds
+- **Zero-Database Content**: Pure TypeScript static data models (`src/data/items.ts`, `src/data/buyers.ts`)
+
+---
+
+## 💻 Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start local dev server
+npm run dev
+
+# Run weekly curation engine locally
+npm run curate
+
+# Compile production build
+npm run build
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.

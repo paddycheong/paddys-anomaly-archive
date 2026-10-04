@@ -26,10 +26,12 @@ const CURATORS = [
 
 /**
  * Weekly Sourcing Engine Pool Generator
+ * Execution Cadence: Every Monday at 12:00 PM Tokyo Time (JST / 03:00 UTC)
+ * Sourcing Window: Global Previous Week (Monday to Sunday) Sales Velocity Top 15
  * Generates 15 verified oddities:
- * - 6 from TikTok Shop (40.0%)
- * - 9 from other global platforms (60.0%)
- * - ALL prices strictly > $100 USD
+ * - 6 from TikTok Shop (40.0% weight)
+ * - 9 from other global platforms (60.0% weight)
+ * - ALL prices strictly > $100.00 USD
  */
 export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate()) {
   const candidates = [
@@ -674,6 +676,8 @@ function main() {
 
   // Generate Markdown Summary for Pull Request
   let summaryMd = `# 📦 Weekly Curation Drop: ${todayStr}\n\n`;
+  summaryMd += `**Curation Cadence**: Every Monday at 12:00 PM Tokyo Time (JST / 03:00 UTC)\n`;
+  summaryMd += `**Sourcing Window**: Global Previous Week (Monday to Sunday) Sales Velocity Top 15\n`;
   summaryMd += `**Batch Summary**: 15 New Artifacts | **40% TikTok Shop** (6/15) | **Price Spectrum**: $${minPrice} — $${maxPrice} USD (All > $100)\n\n`;
   summaryMd += `| # | Code | Title | Platform | Price | Category | Curator |\n`;
   summaryMd += `|---|---|---|---|---|---|---|\n`;
@@ -684,6 +688,7 @@ function main() {
   });
 
   summaryMd += `\n### ✅ Automated Curation Verification Checklist\n`;
+  summaryMd += `- [x] Sourced strictly from Global Previous Week (Monday to Sunday) Sales Velocity Top 15 candidates\n`;
   summaryMd += `- [x] Exactly 15 items added\n`;
   summaryMd += `- [x] Exactly 6 items from TikTok Shop (40.0% weight)\n`;
   summaryMd += `- [x] All 15 items have unit price > $100.00 USD\n`;

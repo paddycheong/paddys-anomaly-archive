@@ -2,8 +2,9 @@ name: Weekly Automated Curation Drop
 
 on:
   schedule:
-    # Runs every Sunday at 04:00 UTC (12:00 PM Beijing Time / UTC+8)
-    - cron: '0 4 * * 0'
+    # Runs every Monday at 03:00 UTC (12:00 PM Tokyo Time JST / UTC+9)
+    # Curates Global Top 15 items by velocity over the previous week (Monday to Sunday)
+    - cron: '0 3 * * 1'
   # Allows manual 1-click trigger from GitHub Actions tab
   workflow_dispatch:
 
@@ -46,8 +47,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "feat(curation): weekly automated drop ${{ steps.read_summary.outputs.date }} (15 items >$100, 40% TikTok Shop)"
-          title: "📦 [Weekly Drop] Curated Batch: ${{ steps.read_summary.outputs.date }} (15 New Artifacts)"
+          commit-message: "feat(curation): weekly automated drop ${{ steps.read_summary.outputs.date }} (Previous Week Mon-Sun Velocity Top 15, 15 items >$100, 40% TikTok Shop)"
+          title: "📦 [Weekly Drop] Previous Week (Mon-Sun) Top 15 Velocity Batch: ${{ steps.read_summary.outputs.date }}"
           body: ${{ steps.read_summary.outputs.summary }}
           branch: "curation/drop-${{ steps.read_summary.outputs.date }}"
           delete-branch: true
