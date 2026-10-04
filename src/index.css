@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-display: 'Archivo Black', -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-paper: #F4F4F0;
+  --color-paper-card: #FFFFFF;
+  --color-ink: #111111;
+  --color-hazard: #7C3AED;
+  --color-acid: #CCFF00;
+  --color-cobalt: #0D35E8;
+  --color-muted-border: #D8D6CE;
+}
+
+/* Strict Brutalist Constraint: Zero Border Radius */
+*, ::before, ::after {
+  border-radius: 0 !important;
+}
+
+body {
+  background-color: #F4F4F0;
+  color: #111111;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Brutalist Hard Shadows */
+.shadow-brutal {
+  box-shadow: 4px 4px 0px #111111;
+}
+
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #111111;
+}
+
+.shadow-brutal-lg {
+  box-shadow: 8px 8px 0px #111111;
+}
+
+.shadow-brutal-hazard {
+  box-shadow: 4px 4px 0px #7C3AED;
+}
+
+.shadow-brutal-acid {
+  box-shadow: 4px 4px 0px #CCFF00;
+}
+
+/* Active Pressed States */
+.active-press:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F4F0;
+  border-left: 2px solid #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
+
+/* Micro Dot Pattern */
+.bg-grid-dots {
+  background-image: radial-gradient(#111111 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.bg-grid-lines {
+  background-image: linear-gradient(to right, #e2ded4 1px, transparent 1px),
+                    linear-gradient(to bottom, #e2ded4 1px, transparent 1px);
+  background-size: 24px 24px;
+}
