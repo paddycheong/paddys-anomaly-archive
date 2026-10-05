@@ -1,6 +1,7 @@
 import type { Curator } from './types';
+import { ODDITY_ITEMS } from './items';
 
-export const CURATORS: Curator[] = [
+const RAW_CURATORS: Omit<Curator, 'curatedCount'>[] = [
   {
     id: 'cr-algo-01',
     callsign: 'Felix Vance',
@@ -26,8 +27,7 @@ export const CURATORS: Curator[] = [
       { platform: 'Substack', url: 'https://substack.com', label: 'The Desk Anomaly Wire' },
       { platform: 'Instagram', url: 'https://instagram.com', label: '@felix_vance' },
       { platform: 'Personal Store', url: 'https://amazon.com', label: "Felix's Amazon Locker" }
-    ],
-    curatedCount: 2
+    ]
   },
   {
     id: 'cr-algo-02',
@@ -54,8 +54,7 @@ export const CURATORS: Curator[] = [
       { platform: 'Instagram', url: 'https://instagram.com', label: '@chloelin_finds' },
       { platform: 'Telegram', url: 'https://t.me', label: 'TikTok Shop Viral Drops' },
       { platform: 'Discord Guild', url: 'https://discord.com', label: 'Chloe Unboxing Collective' }
-    ],
-    curatedCount: 3
+    ]
   },
   {
     id: 'cr-algo-03',
@@ -82,8 +81,7 @@ export const CURATORS: Curator[] = [
       { platform: 'X/Twitter', url: 'https://x.com', label: '@darius_novak' },
       { platform: 'Personal Store', url: 'https://aliexpress.com', label: 'Direct Factory Drops' },
       { platform: 'Discord Guild', url: 'https://discord.com', label: 'Kreuzberg Hardware Lab' }
-    ],
-    curatedCount: 3
+    ]
   },
   {
     id: 'cr-algo-04',
@@ -111,8 +109,7 @@ export const CURATORS: Curator[] = [
       { platform: 'Instagram', url: 'https://instagram.com', label: '@sora.takahashi' },
       { platform: 'Substack', url: 'https://substack.com', label: 'Tokyo-Seoul Dispatch' },
       { platform: 'Personal Store', url: 'https://rakuten.co.jp', label: "Sora's Mercari & Rakuten Radar" }
-    ],
-    curatedCount: 3
+    ]
   },
   {
     id: 'cr-algo-05',
@@ -139,7 +136,12 @@ export const CURATORS: Curator[] = [
       { platform: 'Etsy', url: 'https://etsy.com', label: "Maeve's Etsy Star Picks" },
       { platform: 'Instagram', url: 'https://instagram.com', label: '@maeve_craft' },
       { platform: 'Substack', url: 'https://substack.com', label: 'The Kiln & The Press' }
-    ],
-    curatedCount: 4
+    ]
   }
 ];
+
+export const CURATORS: Curator[] = RAW_CURATORS.map((curator) => ({
+  ...curator,
+  curatedCount: ODDITY_ITEMS.filter((item) => item.curatorId === curator.id).length
+}));
+

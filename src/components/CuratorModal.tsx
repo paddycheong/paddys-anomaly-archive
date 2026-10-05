@@ -36,7 +36,7 @@ export const CuratorModal: React.FC<CuratorModalProps> = ({
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="bg-[#111111] text-white px-4 py-3 flex items-center justify-between border-b-2 border-[#111111] font-mono text-xs">
+        <div className="shrink-0 bg-[#111111] text-white px-4 py-3 flex items-center justify-between border-b-2 border-[#111111] font-mono text-xs">
           <div className="flex items-center gap-2">
             <span className="bg-[#7C3AED] text-white px-2 py-0.5 font-bold uppercase text-[10px]">
               {t.dossierDirectoryBadge}
@@ -56,36 +56,52 @@ export const CuratorModal: React.FC<CuratorModalProps> = ({
         </div>
 
         {/* Curator Navigation Selector */}
-        <div className="flex overflow-x-auto border-b-2 border-[#111111] bg-[#EAE8E3] scrollbar-thin">
-          {curators.map((c) => {
-            const isSelected = c.id === currentCurator.id;
-            return (
-              <button
-                key={c.id}
-                onClick={() => setSelectedCuratorId(c.id)}
-                className={`px-4 py-3 font-mono text-xs whitespace-nowrap flex items-center gap-2 border-r-2 border-[#111111] transition-all cursor-pointer ${
-                  isSelected
-                    ? 'bg-white text-[#111111] font-bold border-b-2 border-b-white'
-                    : 'bg-[#EAE8E3] text-neutral-600 hover:bg-neutral-200'
-                }`}
-              >
-                <img
-                  src={c.avatar}
-                  alt={c.name}
-                  className="w-5 h-5 object-cover border border-[#111111]"
-                />
-                <span>{c.callsign}</span>
-                <span className="text-[10px] bg-neutral-200 px-1 py-0.5 text-neutral-800">
-                  {c.curatedCount}
-                </span>
-              </button>
-            );
-          })}
+        <div className="shrink-0 bg-[#EAE8E3] border-b-2 border-[#111111] overflow-x-auto scrollbar-thin">
+          <div className="flex sm:grid sm:grid-cols-5 divide-x-2 divide-[#111111] min-w-max sm:min-w-0">
+            {curators.map((c) => {
+              const isSelected = c.id === currentCurator.id;
+              const count = items.filter((i) => i.curatorId === c.id).length || c.curatedCount;
+              return (
+                <button
+                  key={c.id}
+                  onClick={() => setSelectedCuratorId(c.id)}
+                  className={`px-3 py-3 font-mono text-xs flex items-center justify-between gap-2.5 transition-all cursor-pointer text-left relative min-h-[58px] ${
+                    isSelected
+                      ? 'bg-white text-[#111111] font-bold border-b-4 border-b-[#7C3AED] shadow-xs'
+                      : 'bg-[#EAE8E3] text-neutral-700 hover:bg-[#DCD8CF]'
+                  }`}
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <img
+                      src={c.avatar}
+                      alt={c.name}
+                      className="w-8 h-8 object-cover border-2 border-[#111111] shrink-0"
+                    />
+                    <div className="min-w-0">
+                      <span className="block font-bold text-xs truncate leading-tight">{c.callsign}</span>
+                      <span className="block text-[10px] text-neutral-500 font-normal truncate mt-0.5">
+                        {count} ARTIFACTS
+                      </span>
+                    </div>
+                  </div>
+                  <span
+                    className={`font-mono text-[10px] font-black px-1.5 py-0.5 shrink-0 border border-[#111111] transition-colors ${
+                      isSelected
+                        ? 'bg-[#7C3AED] text-white'
+                        : 'bg-white text-neutral-800'
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         {/* Curator Detail Body */}
         {currentCurator && (
-          <div className="overflow-y-auto p-4 md:p-6 space-y-6">
+          <div className="flex-1 min-h-0 overflow-y-auto p-4 md:p-6 space-y-6">
             {/* Profile Overview Card */}
             <div className="grid grid-cols-1 md:grid-cols-12 gap-6 border-2 border-[#111111] bg-white p-5 shadow-brutal">
               {/* Photo & Callsign */}
