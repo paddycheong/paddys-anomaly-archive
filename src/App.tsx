@@ -156,9 +156,14 @@ export function App() {
         return b.priceValue - a.priceValue;
       }
       if (sortBy === 'NEWEST') {
-        return b.id.localeCompare(a.id);
+        const timeDiff = new Date(b.dateLogged).getTime() - new Date(a.dateLogged).getTime();
+        if (timeDiff !== 0) return timeDiff;
+        return b.id.localeCompare(a.id, undefined, { numeric: true });
       }
-      return 0; // Default order
+      // DEFAULT: Chronological order from newest published date to oldest
+      const timeDiff = new Date(b.dateLogged).getTime() - new Date(a.dateLogged).getTime();
+      if (timeDiff !== 0) return timeDiff;
+      return b.id.localeCompare(a.id, undefined, { numeric: true });
     });
   }, [selectedCategory, selectedCuratorId, minWeirdness, minPrice, maxPrice, selectedDifficulty, selectedPlatform, searchQuery, sortBy]);
 

@@ -49,7 +49,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL DESK SCIENCE (280K+ SOLD)',
       scarcityBadge: 'HIGH VOLTAGE SPECIMEN',
-      heroImage: '/items/anm-001-ferrofluid.jpg',
+      heroImage: '/items/anm-016.jpg',
       tagline: 'High-frequency solid-state Tesla coil that sings via modulated electric plasma arcs, jumping to touch without thermal burns.',
       tags: ['TIKTOK SHOP 40%', 'PLASMA ARC', 'TESLA COIL', 'SOUND MODULATED', 'HIGH VOLTAGE'],
       fieldObservation: {
@@ -87,7 +87,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL LIVING ARTIFACT (190K+ SOLD)',
       scarcityBadge: 'LIVING BIOLOGICAL CULTURE',
-      heroImage: '/items/anm-003-levitation.jpg',
+      heroImage: '/items/anm-017.jpg',
       tagline: 'Hand-blown spherical glass vessel holding living marine Pyrocystis algae that flash intensely cyan when swirled at night.',
       tags: ['TIKTOK SHOP 40%', 'BIOLUMINESCENT', 'LIVING ORGANISM', 'CYAN GLOW', 'CIRCADIAN ECOSYSTEM'],
       fieldObservation: {
@@ -125,7 +125,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL DESK MAKER ARM (85K+ SOLD)',
       scarcityBadge: 'PRECISION CNC ACTUATOR',
-      heroImage: '/items/anm-006-hexapod.jpg',
+      heroImage: '/items/anm-018.jpg',
       tagline: 'Anodized aluminum desktop 6-DOF robotic manipulator equipped with pneumatic suction cups and camera color-sorting tracking.',
       tags: ['TIKTOK SHOP 40%', 'ROBOTIC ARM', '6-AXIS MANIPULATOR', 'COMPUTER VISION', 'PNEUMATIC SUCTION'],
       fieldObservation: {
@@ -163,7 +163,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL TECH WEARABLE (140K+ SOLD)',
       scarcityBadge: 'SOVIET VFD RETROFIT',
-      heroImage: '/items/anm-009-exoglove.jpg',
+      heroImage: '/items/anm-019.jpg',
       tagline: 'Chunky aircraft-grade titanium wrist module powering genuine twin IV-6 cold-cathode vacuum tubes with gyroscope wrist-tilt activation.',
       tags: ['TIKTOK SHOP 40%', 'VFD TUBE WATCH', 'STEAMPUNK CHRONO', 'TITANIUM CHASSIS', 'WRIST TILT SENSOR'],
       fieldObservation: {
@@ -201,7 +201,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL NIGHT ORB (620K+ SOLD)',
       scarcityBadge: 'ASTRONOMICAL ACCURACY',
-      heroImage: '/items/anm-003-levitation.jpg',
+      heroImage: '/items/anm-020.jpg',
       tagline: 'NASA topographic relief sphere that floats in mid-air above walnut base, wirelessly cycling through exact lunar surface lighting phases.',
       tags: ['TIKTOK SHOP 40%', 'LEVITATING MOON', 'TOPOGRAPHIC RELIEF', 'WIRELESS INDUCTION', 'ASTRONOMICAL'],
       fieldObservation: {
@@ -239,7 +239,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 VIRAL CYBER EYEWEAR (95K+ SOLD)',
       scarcityBadge: 'TITANIUM SMART EYEWEAR',
-      heroImage: '/items/anm-012-pixelpack.jpg',
+      heroImage: '/items/anm-021.jpg',
       tagline: 'Titanium geometric sunglasses featuring micro-OLED heads-up telemetry display, open-ear bone conduction, and electrochromic tint switching.',
       tags: ['TIKTOK SHOP 40%', 'HUD GLASSES', 'BONE CONDUCTION', 'ELECTROCHROMIC', 'CYBER EYEWEAR'],
       fieldObservation: {
@@ -281,7 +281,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 BESTSELLER SHORTWAVE GEAR',
       scarcityBadge: 'ANALOG SHORTWAVE TUNER',
-      heroImage: '/items/anm-007-nixie.jpg',
+      heroImage: '/items/anm-022.jpg',
       tagline: 'Heavy gauge steel chassis combining a continuous analog shortwave radio receiver with green phosphor tuning eye vacuum tubes.',
       tags: ['AMAZON #1', 'SHORTWAVE RADIO', 'TUNING EYE TUBE', 'ANALOG DIAL', 'COLD WAR AUDIO'],
       fieldObservation: {
@@ -319,7 +319,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 BESTSELLER KINETIC DESK SCULPTURE',
       scarcityBadge: 'ALGORITHMIC SAND PLOTTER',
-      heroImage: '/items/anm-004-theremin.jpg',
+      heroImage: '/items/anm-023.jpg',
       tagline: 'Motorized dual-axis mechanism that silently drives a steel sphere through fine silica sand, carving infinitely complex sacred geometry patterns.',
       tags: ['AMAZON #1', 'KINETIC SAND TABLE', 'ZEN PLOTTER', 'MAGNETIC SPHERE', 'ALGORITHMIC ART'],
       fieldObservation: {
@@ -357,7 +357,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 GLOBAL BESTSELLER CYBER PROP',
       scarcityBadge: 'ALLOY COMPOSITE ARMOR',
-      heroImage: '/items/anm-009-exoglove.jpg',
+      heroImage: '/items/anm-024.jpg',
       tagline: 'Articulated cyberpunk respirator helmet with active air filtration, dual circular OLED canister meters, and voice modulation mic.',
       tags: ['ALIEXPRESS #1', 'CYBER RESPIRATOR', 'VOICE MODULATOR', 'OLED CANISTERS', 'DYSTOPIAN WEAR'],
       fieldObservation: {
@@ -395,7 +395,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 STAR SELLER ODDITIES MASTERPIECE',
       scarcityBadge: 'MUSEUM CONSERVATOR GRADE',
-      heroImage: '/items/anm-010-cryptozoology.jpg',
+      heroImage: '/items/anm-025.jpg',
       tagline: 'Ethically salvaged articulated bat skeleton retrofitted with miniature brass watch gears, escapement springs, and vintage clockwork wing linkages.',
       tags: ['ETSY #1', 'STEAMPUNK TAXIDERMY', 'CLOCKWORK BAT', 'WALNUT SHADOWBOX', 'CABINET CURIOSITY'],
       fieldObservation: {
@@ -433,7 +433,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 TOKYO RARE SYNTH VAULT',
       scarcityBadge: 'JAPAN DISCONTINUED CLASSIC',
-      heroImage: '/items/anm-011-synthguitar.jpg',
+      heroImage: '/items/anm-026.jpg',
       tagline: 'Discontinued cult Japanese analog synthesizer featuring stylus touch strip, resonant VCF filter, and screaming square-wave cross modulation.',
       tags: ['MERCARI #1', 'GAKKEN SX-150', 'ANALOG SYNTH', 'JAPAN CULT AUDIO', 'STYLUS STRIP'],
       fieldObservation: {
@@ -471,7 +471,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 GEEK TECH INNOVATION AWARD',
       scarcityBadge: 'BEST BUY TECH EXCLUSIVE',
-      heroImage: '/items/anm-001-ferrofluid.jpg',
+      heroImage: '/items/anm-027.jpg',
       tagline: 'Tempered glass cylindrical smart device displaying real-time weather and notifications through a suspended blob of magnetic ferrofluid.',
       tags: ['BESTBUY #1', 'FERROFLUID SMART HUB', 'CYBER DESK', 'MAGNETIC VISUALIZER', 'SMART DISPLAY'],
       fieldObservation: {
@@ -509,7 +509,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 SEOUL FUTURISTIC HOME APPLIANCE',
       scarcityBadge: 'KOREAN DESIGN RED DOT',
-      heroImage: '/items/anm-013-antigravity.jpg',
+      heroImage: '/items/anm-028.jpg',
       tagline: 'Ultrasonic vapor cylinder that propels physical, illuminated toroidal smoke rings 4 meters across the room every 2 seconds.',
       tags: ['COUPANG #1', 'VORTEX RINGS', 'ULTRASONIC VAPOR', 'KINETIC SMOKE', 'SEOUL DESIGN'],
       fieldObservation: {
@@ -547,7 +547,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 JAPAN TRADITIONAL INTANGIBLE CRAFT',
       scarcityBadge: 'WOOD-FIRED WOOD ASH PATINA',
-      heroImage: '/items/anm-014-tengu.jpg',
+      heroImage: '/items/anm-029.jpg',
       tagline: 'Hand-sculpted anatomical human skull fired in a traditional climbing wood kiln for 14 days without glaze, resulting in fiery scarlet natural markings.',
       tags: ['RAKUTEN #1', 'BIZEN WARE', 'WOOD FIRED CERAMIC', 'ANATOMICAL SKULL', 'JAPAN KILN RELIC'],
       fieldObservation: {
@@ -585,7 +585,7 @@ export function generateWeeklyDrop(startIdNumber, dropDate = getFormattedDate())
       salesRank: 1,
       salesRankBadge: '#1 POLAND MILITARY AVIATION RELIC',
       scarcityBadge: 'MIG-21 RADAR SCOPE',
-      heroImage: '/items/anm-015-geiger.jpg',
+      heroImage: '/items/anm-030.jpg',
       tagline: 'Authentic 1970s MiG interceptor circular green CRT radar scope, safely converted into an audio waveform XY vector oscilloscope.',
       tags: ['ALLEGRO #1', 'CRT RADAR SCOPE', 'MIG FIGHTER', 'VECTOR OSCILLOSCOPE', 'WARSAW PACT'],
       fieldObservation: {
@@ -699,12 +699,13 @@ function main() {
   fs.writeFileSync(summaryFilePath, summaryMd, 'utf-8');
   console.log(`Summary written to: ${summaryFilePath}`);
 
-  // Write new items into items.ts by inserting them before the closing `];`
-  const lastBracketIndex = itemsFileContent.lastIndexOf('];');
-  if (lastBracketIndex === -1) {
-    console.error('Error: Could not locate closing "];" in items.ts');
+  // Write new items into items.ts by PREPENDING them at the front of ODDITY_ITEMS array (newest first)
+  const openBracketIndex = itemsFileContent.indexOf('export const ODDITY_ITEMS: OddityItem[] = [');
+  if (openBracketIndex === -1) {
+    console.error('Error: Could not locate "export const ODDITY_ITEMS: OddityItem[] = [" in items.ts');
     process.exit(1);
   }
+  const insertIndex = openBracketIndex + 'export const ODDITY_ITEMS: OddityItem[] = ['.length;
 
   const itemsFormattedCode = newItems.map(item => {
     return `  {\n` +
@@ -730,12 +731,13 @@ function main() {
   }).join(',\n\n');
 
   const updatedContent = 
-    itemsFileContent.slice(0, lastBracketIndex).trimEnd() + 
-    ',\n\n  // -------------------------------------------------------------\n' +
-    `  // WEEKLY DROP: ${todayStr} (15 NEW SPECIMENS // 40% TIKTOK SHOP // >$100)\n` +
-    '  // -------------------------------------------------------------\n' +
+    itemsFileContent.slice(0, insertIndex) + 
+    '\n\n  // =============================================================\n' +
+    `  // LATEST WEEKLY DROP: ${todayStr} (15 NEW SPECIMENS // 40% TIKTOK SHOP // >$100)\n` +
+    '  // =============================================================\n' +
     itemsFormattedCode + 
-    '\n];\n';
+    ',\n' +
+    itemsFileContent.slice(insertIndex).trimStart();
 
   fs.writeFileSync(itemsFilePath, updatedContent, 'utf-8');
   console.log(`\nSuccessfully appended 15 new items to: ${itemsFilePath}`);
