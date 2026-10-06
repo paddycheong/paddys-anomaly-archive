@@ -60,12 +60,16 @@ export interface FieldObservation {
 export type OutboundSourceType = 
   | 'Artisan Workshop' 
   | 'Official Workshop'
+  | 'Official Reseller'
+  | 'Authorized Dealer'
   | 'Proxy Auction' 
   | 'Curator Direct DM' 
   | 'Underground Store' 
   | 'Independent Zine Shop'
   | 'Deadstock Vault'
   | 'Boutique Reseller'
+  | 'Independent Artisan'
+  | 'Certified Paleontologist'
   | 'Artisan Studio';
 
 export interface SourcingTelemetry {

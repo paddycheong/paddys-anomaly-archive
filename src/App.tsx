@@ -158,12 +158,12 @@ export function App() {
       if (sortBy === 'NEWEST') {
         const timeDiff = new Date(b.dateLogged).getTime() - new Date(a.dateLogged).getTime();
         if (timeDiff !== 0) return timeDiff;
-        return b.id.localeCompare(a.id, undefined, { numeric: true });
+        return a.id.localeCompare(b.id, undefined, { numeric: true });
       }
-      // DEFAULT: Chronological order from newest published date to oldest
+      // DEFAULT: Chronological order from newest published date to oldest (items within drop preserve #1 to #15 sequence)
       const timeDiff = new Date(b.dateLogged).getTime() - new Date(a.dateLogged).getTime();
       if (timeDiff !== 0) return timeDiff;
-      return b.id.localeCompare(a.id, undefined, { numeric: true });
+      return a.id.localeCompare(b.id, undefined, { numeric: true });
     });
   }, [selectedCategory, selectedCuratorId, minWeirdness, minPrice, maxPrice, selectedDifficulty, selectedPlatform, searchQuery, sortBy]);
 

@@ -8,1174 +8,1072 @@ import type { OddityItem } from './types';
 // ============================================================================
 
 export const ODDITY_ITEMS: OddityItem[] = [
+
+  // =============================================================
+  // LATEST WEEKLY DROP: OCT 06, 2026 (TOP 15 VELOCITY SPECIMENS // 40% TIKTOK SHOP // >$100)
+  // =============================================================
   {
-    "id": "anm-016",
-    "specimenCode": "TIKTOK-PLASMA // #1-KINETIC",
-    "title": "Resonant Audio Plasma Column Arc Visualizer with Wireless Coil",
-    "category": "CYBER_HARDWARE",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.4,
-    "priceValue": 149,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL DESK SCIENCE (280K+ SOLD)",
-    "scarcityBadge": "HIGH VOLTAGE SPECIMEN",
-    "heroImage": "/items/anm-016.jpg",
-    "gallery": [
-      "/items/anm-016.jpg"
-    ],
-    "tagline": "High-frequency solid-state Tesla coil that sings via modulated electric plasma arcs, jumping to touch without thermal burns.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "PLASMA ARC",
-      "TESLA COIL",
-      "SOUND MODULATED",
-      "HIGH VOLTAGE"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Arrives in laser-cut protective packaging with grounding cable, discharge needles, and Bluetooth audio sync unit.",
-      "tactileFeedback": "Cool ceramic insulator tower with solid copper secondary coil. Electric arcs crackle audibly in sync with square-wave music.",
-      "honestSnags": [
-        "Produces subtle ozone scent during prolonged operation in small enclosed rooms.",
-        "Must be kept away from pacemakers, heart monitors, and sensitive audio recording equipment.",
-        "High-frequency arc sounds sharp and metallic; unsuited for mellow ambient sleep playlists."
+    id: 'anm-016',
+    specimenCode: 'TIKTOK-PLASMA // #1-KINETIC',
+    title: "Resonant Audio Plasma Column Arc Visualizer with Wireless Coil",
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.4,
+    priceValue: 149,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL DESK SCIENCE (280K+ SOLD)',
+    scarcityBadge: 'HIGH VOLTAGE SPECIMEN',
+    heroImage: '/items/anm-016.jpg',
+    gallery: ["/items/anm-016.jpg"],
+    tagline: "High-frequency solid-state Tesla coil that sings via modulated electric plasma arcs, jumping to touch without thermal burns.",
+    tags: ["TIKTOK SHOP 40%","PLASMA ARC","TESLA COIL","SOUND MODULATED","HIGH VOLTAGE"],
+    fieldObservation: {
+      unboxingLog: "Arrives in laser-cut protective packaging with grounding cable, discharge needles, and Bluetooth audio sync unit.",
+      tactileFeedback: "Cool ceramic insulator tower with solid copper secondary coil. Electric arcs crackle audibly in sync with square-wave music.",
+      honestSnags: [
+            "Produces subtle ozone scent during prolonged operation in small enclosed rooms.",
+            "Must be kept away from pacemakers, heart monitors, and sensitive audio recording equipment.",
+            "High-frequency arc sounds sharp and metallic; unsuited for mellow ambient sleep playlists."
       ],
-      "curatorVerdict": "Lightning captured in a desk cylinder. The visceral rush of physical electric fire dancing to 8-bit chip tunes never gets old.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 35,
-          "label": "Tungsten Discharge Needle",
-          "detail": "Precision ground electrode focusing ionized plasma streamers into open air."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 65,
-          "label": "Resonant Secondary Copper Winding",
-          "detail": "Over 1,200 turns of enameled pure copper wire stepping voltage up to 45,000V."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 88,
-          "label": "Solid-State IGBT Driver Base",
-          "detail": "Heavy aluminum heatsink enclosure housing high-speed switching transistors."
-        }
+      curatorVerdict: "Lightning captured in a desk cylinder. The visceral rush of physical electric fire dancing to 8-bit chip tunes never gets old.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "Tungsten Discharge Needle",
+                  detail: "Precision ground electrode focusing ionized plasma streamers into open air."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 65,
+                  label: "Resonant Secondary Copper Winding",
+                  detail: "Over 1,200 turns of enameled pure copper wire stepping voltage up to 45,000V."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 88,
+                  label: "Solid-State IGBT Driver Base",
+                  detail: "Heavy aluminum heatsink enclosure housing high-speed switching transistors."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$135 — $165 USD",
-      "primaryChannels": [
-        "TikTok Shop (Search \"Singing Tesla Coil\")",
-        "Passfeed Hardware Feed"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$135 — $165 USD",
+      primaryChannels: [
+            "TikTok Shop (Search \"Singing Tesla Coil\")",
+            "Passfeed Hardware Feed"
       ],
-      "searchKeywords": [
-        "Singing Tesla Coil Plasma Speaker",
-        "Solid State Audio Arc Generator",
-        "Desktop Spark Gap Music Coil"
+      searchKeywords: [
+            "Singing Tesla Coil Plasma Speaker",
+            "Solid State Audio Arc Generator",
+            "Desktop Spark Gap Music Coil"
       ],
-      "antiFraudWarning": "Avoid cheap low-power 12V toys with weak sparks. Look for 48V dual-MOSFET drivers capable of true audio frequency modulation.",
-      "directOutbound": {
-        "label": "Inspect on TikTok Shop Maker Feed",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Avoid cheap low-power 12V toys with weak sparks. Look for 48V dual-MOSFET drivers capable of true audio frequency modulation.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Maker Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-017",
-    "specimenCode": "TIKTOK-BIOFLOW // #1-MICROBE",
-    "title": "Bioluminescent Dinoflagellate Living Marine Micro-Habitat Orb",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.6,
-    "priceValue": 124,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL LIVING ARTIFACT (190K+ SOLD)",
-    "scarcityBadge": "LIVING BIOLOGICAL CULTURE",
-    "heroImage": "/items/anm-017.jpg",
-    "gallery": [
-      "/items/anm-017.jpg"
-    ],
-    "tagline": "Hand-blown spherical glass vessel holding living marine Pyrocystis algae that flash intensely cyan when swirled at night.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "BIOLUMINESCENT",
-      "LIVING ORGANISM",
-      "CYAN GLOW",
-      "CIRCADIAN ECOSYSTEM"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Shipped in insulated climate-controlled packaging with active living broth culture and nutrient booster sachets.",
-      "tactileFeedback": "Silky smooth borosilicate glass orb. Swirling the sphere in total darkness yields an explosion of electric blue ocean light.",
-      "honestSnags": [
-        "Requires indirect daylight cycle; keeping it in a windowless closet will starve the living organisms.",
-        "Living culture has a 6 to 9 month life cycle before requiring fresh nutrient medium inoculation.",
-        "Cannot be violently shaken during daytime hours when the algae are recharging their photosynthetic luciferin."
+    id: 'anm-017',
+    specimenCode: 'TIKTOK-BIOFLOW // #1-MICROBE',
+    title: "Bioluminescent Dinoflagellate Living Marine Micro-Habitat Orb",
+    category: 'UNCANNY_DOMESTIC',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.6,
+    priceValue: 124,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL LIVING ARTIFACT (190K+ SOLD)',
+    scarcityBadge: 'LIVING BIOLOGICAL CULTURE',
+    heroImage: '/items/anm-017.jpg',
+    gallery: ["/items/anm-017.jpg"],
+    tagline: "Hand-blown spherical glass vessel holding living marine Pyrocystis algae that flash intensely cyan when swirled at night.",
+    tags: ["TIKTOK SHOP 40%","BIOLUMINESCENT","LIVING ORGANISM","CYAN GLOW","CIRCADIAN ECOSYSTEM"],
+    fieldObservation: {
+      unboxingLog: "Shipped in insulated climate-controlled packaging with active living broth culture and nutrient booster sachets.",
+      tactileFeedback: "Silky smooth borosilicate glass orb. Swirling the sphere in total darkness yields an explosion of electric blue ocean light.",
+      honestSnags: [
+            "Requires indirect daylight cycle; keeping it in a windowless closet will starve the living organisms.",
+            "Living culture has a 6 to 9 month life cycle before requiring fresh nutrient medium inoculation.",
+            "Cannot be violently shaken during daytime hours when the algae are recharging their photosynthetic luciferin."
       ],
-      "curatorVerdict": "Zero electricity, pure biological wonder. Holding a constellation of glowing marine plankton in the palm of your hand is deeply grounding.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 35,
-          "label": "Hand-Blown Glass Micro-Habitat",
-          "detail": "Optical quality sphere designed to maximize water swirl and mechanical stress activation."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 65,
-          "label": "Enriched Sea Mineral Broth",
-          "detail": "Sterile marine saline solution providing exact trace elements for Pyrocystis fusiformis."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 88,
-          "label": "PyroFarms Branded Collector Base",
-          "detail": "Custom dark display box keeping the spherical vessel elevated and steady."
-        }
+      curatorVerdict: "A living star captured inside hand-blown glass. Nightly swirl routine replaces doom-scrolling with hypnotic oceanic bioluminescence.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 30,
+                  label: "Hand-Blown Borosilicate Sphere",
+                  detail: "Optical grade bubble-free spherical flask with ground glass stopper."
+            },
+            {
+                  id: "hs-2",
+                  x: 45,
+                  y: 60,
+                  label: "Living Dinoflagellate Suspension",
+                  detail: "Over 50,000 individual Pyrocystis fusiformis cells emitting light via mechanical shear stress."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 85,
+                  label: "Laser-Etched Birch Pedestal",
+                  detail: "Recessed hardwood display mount holding the orb securely."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$110 — $138 USD",
-      "primaryChannels": [
-        "TikTok Shop (Live Science Creators)",
-        "PyroFarms Bioluminescent Marine Lab"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$110 — $140 USD",
+      primaryChannels: [
+            "TikTok Shop Bio-Creations",
+            "PyroFarms Authorized Drops"
       ],
-      "searchKeywords": [
-        "Living Dinoflagellate Bioluminescent Sphere",
-        "Glowing Algae Night Habitat",
-        "Bio-Orb Marine Living Light"
+      searchKeywords: [
+            "Bioluminescent Bio-Orb Algae",
+            "Living Dinoflagellate Desk Sphere",
+            "Glow in Dark Living Plankton Orb"
       ],
-      "antiFraudWarning": "Do not buy glow-in-the-dark chemical liquid fakes. True cultures must arrive with living cell density verification certificates.",
-      "directOutbound": {
-        "label": "Acquire via TikTok Shop Culture Lab",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Avoid chemical glow-in-the-dark phosphor imitations. Verify live liquid culture that only illuminates under physical motion.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-018",
-    "specimenCode": "TIKTOK-ROBOTARM // #1-GEEK",
-    "title": "Elephant Robotics myCobot 280 6-Axis Collaborative Desktop Robotic Arm",
-    "category": "CYBER_HARDWARE",
-    "curatorId": "cr-algo-03",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.3,
-    "priceValue": 245,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL DESK MAKER ARM (85K+ SOLD)",
-    "scarcityBadge": "6-AXIS COLLABORATIVE ROBOT",
-    "heroImage": "/items/anm-018.jpg",
-    "gallery": [
-      "/items/anm-018.jpg"
-    ],
-    "tagline": "Compact 850g six-axis desktop collaborative robot arm featuring M5Stack core display, 280mm working radius, and Python/ROS programmable servos.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "ROBOTIC ARM",
-      "MYCOBOT 280",
-      "6-AXIS DOF",
-      "PYTHON ROS"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Ships in heavy protective case with M5Stack controller base, power adapter, joint calibration tool, and USB interface cable.",
-      "tactileFeedback": "Sleek white industrial composite articulated segments with smooth 6-axis joint movement. The end-effector LED matrix indicates live execution states.",
-      "honestSnags": [
-        "Payload is limited to 250g; intended for light object manipulation, pipetting, and drawing.",
-        "Requires stable desk mounting or a suction base pad when executing high-speed trajectory motions.",
-        "Python and ROS programming libraries have a slight learning curve for robotics novices."
+    id: 'anm-018',
+    specimenCode: 'TIKTOK-ROBOTARM // #1-GEEK',
+    title: "Elephant Robotics myCobot 280 6-Axis Collaborative Desktop Robotic Arm",
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-03',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.7,
+    priceValue: 245,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 DESK ROBOTICS VIRAL HIT (72K+ SOLD)',
+    scarcityBadge: 'PRECISION SERVO KINEMATICS',
+    heroImage: '/items/anm-018.jpg',
+    gallery: ["/items/anm-018.jpg"],
+    tagline: "Six degrees-of-freedom miniature collaborative industrial manipulator with ROS2 support and magnetic base mount.",
+    tags: ["TIKTOK SHOP 40%","ROBOT ARM","6-AXIS","DESK AUTOMATION","ROS2 COMPATIBLE"],
+    fieldObservation: {
+      unboxingLog: "Dense Pelican-style protective case containing robotic arm, pneumatic suction gripper, power brick, and quick-start guide.",
+      tactileFeedback: "Solid carbon-infused nylon joints with zero backlash. The joint servos whir with crisp industrial precision.",
+      honestSnags: [
+            "Requires baseline Python or block-coding familiarity to program beyond standard pre-recorded trajectories.",
+            "High torque movement can tip the arm if not securely suction-locked to a flat table.",
+            "Power adapter runs noticeably warm during multi-hour repetitive sorting scripts."
       ],
-      "curatorVerdict": "Real industrial factory robotics scaled down to fit next to your coffee mug. Watching it repeat precise millimeter paths is mesmerizing.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 15,
-          "label": "End-Effector LED Matrix & Tool Mount",
-          "detail": "Integrated 5x5 LED status matrix and quick-attach tool flange for grippers, suction, or cameras."
-        },
-        {
-          "id": "hs-2",
-          "x": 45,
-          "y": 45,
-          "label": "6 High-Precision Smart Joint Servos",
-          "detail": "Independent feedback servos delivering 280mm arm reach with ±0.5mm repeat positioning accuracy."
-        },
-        {
-          "id": "hs-3",
-          "x": 40,
-          "y": 88,
-          "label": "M5Stack Microcontroller Display Base",
-          "detail": "Onboard color screen and manual buttons for drag-to-teach movement recording without a PC."
-        }
+      curatorVerdict: "Industrial automation shrunk to an espresso mug scale. Writing Python scripts to have it hand you guitar picks is pure cybernetic joy.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 25,
+                  label: "Modular Quick-Release End Effector",
+                  detail: "Interchangeable pneumatic gripper, pen holder, or suction cup tool head."
+            },
+            {
+                  id: "hs-2",
+                  x: 45,
+                  y: 55,
+                  label: "High-Precision Metal Gear Servos",
+                  detail: "Six integrated brushless servo actuators offering 0.5mm repeatability."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 85,
+                  label: "ESP32 / M5Stack Controller Core",
+                  detail: "Onboard microcontroller with Wi-Fi, Bluetooth, and drag-and-drop code storage."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$225 — $275 USD",
-      "primaryChannels": [
-        "TikTok Shop (Creator Engineering Showcase)",
-        "Elephant Robotics Official"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: "$230 — $275 USD",
+      primaryChannels: [
+            "TikTok Shop Robotics Lab",
+            "Elephant Robotics Global Feed"
       ],
-      "searchKeywords": [
-        "myCobot 280 6-Axis Robotic Arm",
-        "Desktop Collaborative Robot Arm",
-        "M5Stack Programmable Robot Arm"
+      searchKeywords: [
+            "myCobot 280 6-Axis Robot Arm",
+            "Desktop Collaborative Robotic Arm",
+            "Programmable M5Stack Arm Manipulator"
       ],
-      "antiFraudWarning": "Avoid toy arms with cheap 9g plastic gears. Look for official Elephant Robotics firmware with magnetic absolute encoders.",
-      "directOutbound": {
-        "label": "Inspect on TikTok Shop Hardware Lab",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Avoid 3D-printed hobby kits with plastic servo gears. Ensure metal gearboxes and CE/FCC calibrated industrial controllers.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-019",
-    "specimenCode": "TIKTOK-NIXIE-WATCH // #1-CYBER",
-    "title": "Cyberpunk Dual VFD Vacuum Fluorescent Tube Wrist Chronograph",
-    "category": "WEARABLE_ANOMALIES",
-    "curatorId": "cr-algo-03",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.7,
-    "priceValue": 185,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL TECH WEARABLE (140K+ SOLD)",
-    "scarcityBadge": "VINTAGE VFD TUBE",
-    "heroImage": "/items/anm-019.jpg",
-    "gallery": [
-      "/items/anm-019.jpg"
-    ],
-    "tagline": "Solid CNC milled alloy wrist module housing twin vintage VFD vacuum fluorescent display tubes that glow brilliant cyan upon wrist raise.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "VFD TUBE WATCH",
-      "CYBERPUNK CHRONO",
-      "CNC ALLOY CASE",
-      "WRIST TILT SENSOR"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Housed in an ammo-can style steel case with magnetic charging dock and solid metal link bracelet.",
-      "tactileFeedback": "Hefty cool brushed metal case. Raising your wrist immediately fires up the neon-cyan vacuum tubes with warm retro luminescence.",
-      "honestSnags": [
-        "Thick 20mm case height means it will not slide under tight tailored shirt cuffs.",
-        "High-voltage boost circuitry requires charging every 3 to 4 days under regular wrist-raise use.",
-        "Water-resistant for light splashes only; avoid submerging in showers or swimming pools."
+    id: 'anm-019',
+    specimenCode: 'TIKTOK-NIXIE-WATCH // #1-CYBER',
+    title: "Cyberpunk Dual VFD Vacuum Fluorescent Tube Wrist Chronograph",
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-03',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.8,
+    priceValue: 185,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL CYBERPUNK WEARABLE (110K+ SOLD)',
+    scarcityBadge: 'RARE SOVIET IV-15 VFD TUBES',
+    heroImage: '/items/anm-019.jpg',
+    gallery: ["/items/anm-019.jpg"],
+    tagline: "Wristwatch built from authentic vintage vacuum fluorescent tubes, glowing in electric cyan numerals upon wrist-raise gesture.",
+    tags: ["TIKTOK SHOP 40%","VFD WATCH","VACUUM TUBE","CYBERPUNK WRIST","COLD WAR TUBE"],
+    fieldObservation: {
+      unboxingLog: "Packaged in a laser-engraved acrylic presentation box with magnetic charging cable, hex adjustment key, and spare strap pins.",
+      tactileFeedback: "Substantial CNC-machined aerospace alloy body with curved sapphire glass window. The VFD phosphor glow is mesmerisingly sharp.",
+      honestSnags: [
+            "Chunky 16mm case height will catch on tight motorcycle leather jacket cuffs.",
+            "Requires USB-C recharge every 4 to 5 days under active wrist-tilt wake usage.",
+            "Not water-submersible; taking it into a swimming pool will permanently breach vacuum seals."
       ],
-      "curatorVerdict": "Looks like something an illicit time-traveler would wear while infiltrating a mainframe bunker. Irresistible conversation starter.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 38,
-          "y": 42,
-          "label": "Vintage VFD Fluorescent Display Tube",
-          "detail": "Twin vacuum fluorescent glass tubes emitting high-visibility neon-cyan digital numerals."
-        },
-        {
-          "id": "hs-2",
-          "x": 70,
-          "y": 55,
-          "label": "Solid CNC Machined Alloy Enclosure",
-          "detail": "Heavy industrial brushed metal casing with hex corner bolts and scratch-resistant mineral crystal glass."
-        },
-        {
-          "id": "hs-3",
-          "x": 35,
-          "y": 68,
-          "label": "Integrated Stainless Steel Link Bracelet",
-          "detail": "Solid link band matching the brutalist industrial aesthetic of the display chassis."
-        }
+      curatorVerdict: "Wrist-worn Soviet retro-futurism. Glancing down to see twin vacuum tubes ignite in cyan neon instantly transports you into an anime terminal.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 45,
+                  y: 40,
+                  label: "Twin IV-15 Glass VFD Tubes",
+                  detail: "Original Cold-War phosphor tubes emitting monochromatic 505nm cyan numerals."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 70,
+                  label: "Gyroscope Gesture Tilt Sensor",
+                  detail: "Ultra-low-power accelerometer igniting the filament only when wrist is tilted toward eye."
+            },
+            {
+                  id: "hs-3",
+                  x: 75,
+                  y: 45,
+                  label: "Anodized 6061 Billet Aluminum Case",
+                  detail: "Milled unibody chassis with wire-cut side gills exposing motherboard traces."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 4,
-      "priceRange": "$170 — $210 USD",
-      "primaryChannels": [
-        "TikTok Shop (Boutique Watchmakers)",
-        "Underground Cyber Wear Vault"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: "$170 — $210 USD",
+      primaryChannels: [
+            "TikTok Shop Cyberpunk Drop",
+            "Shenzhen Horology Lab"
       ],
-      "searchKeywords": [
-        "VFD Tube Watch IVL2",
-        "Vacuum Fluorescent Wristwatch",
-        "Cyberpunk Nixie Tube Wrist Chronograph"
+      searchKeywords: [
+            "IV-15 VFD Tube Wrist Watch",
+            "Vacuum Fluorescent Tube Watch",
+            "Cyberpunk Nixie Tube Wristwatch"
       ],
-      "antiFraudWarning": "Check for authentic glass vacuum fluorescent tubes rather than digital TFT screens with fake tube graphics.",
-      "directOutbound": {
-        "label": "View on TikTok Shop Specialty Watches",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Avoid cheap counterfeit watches using backlit LCD cutouts. Genuine vacuum tubes have glowing tungsten filaments and vacuum getters.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-020",
-    "specimenCode": "TIKTOK-LEVIT-MOON // #1-ASTRONOMY",
-    "title": "Magnetic Levitating 3D Relief Moon Lamp with Solid Wood Base",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.2,
-    "priceValue": 139,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL DESK LEVITATION (310K+ SOLD)",
-    "scarcityBadge": "MAGNETIC SUSPENSION",
-    "heroImage": "/items/anm-020.jpg",
-    "gallery": [
-      "/items/anm-020.jpg"
-    ],
-    "tagline": "Precision 3D-scanned lunar sphere floating effortlessly in mid-air above an electromagnetic oak base, featuring touch-controlled 3-color illumination.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "LEVITATING MOON",
-      "3D LUNAR RELIEF",
-      "MAGNETIC SUSPENSION",
-      "OAK WOOD BASE"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Packaged in dense foam cradle with wooden magnetic base, 3D lunar sphere, centering guide, and 12V adapter.",
-      "tactileFeedback": "Textured moon sphere with realistic craters and maria. Once balanced in the magnetic sweet spot, it spins silently without friction.",
-      "honestSnags": [
-        "Finding the magnetic equilibrium center requires a steady two-handed gentle touch the first time.",
-        "A sudden power cut will cause the moon orb to drop onto the wooden base cushion.",
-        "Must be kept at least 20cm away from mechanical watches and magnetic strip cards."
+    id: 'anm-020',
+    specimenCode: 'TIKTOK-LEVIT-MOON // #1-ASTRONOMY',
+    title: "Magnetic Levitating 3D Relief Moon Lamp with Solid Wood Base",
+    category: 'UNCANNY_DOMESTIC',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.3,
+    priceValue: 139,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL ROOM AESTHETIC (420K+ SOLD)',
+    scarcityBadge: 'MAGNETIC LEVITATION HARNESS',
+    heroImage: '/items/anm-020.jpg',
+    gallery: ["/items/anm-020.jpg"],
+    tagline: "High-precision NASA topographic relief celestial sphere floating and spinning friction-free in mid-air via electromagnetic levitation.",
+    tags: ["TIKTOK SHOP 40%","MAGNETIC LEVITATION","MOON LAMP","NASA RELIEF","ZERO GRAVITY"],
+    fieldObservation: {
+      unboxingLog: "Arrives in high-density molded pearl foam with American walnut base, leveling alignment tool, and DC power supply.",
+      tactileFeedback: "Tactile crater ridges on matte PLA shell. Floating the orb gives a distinct haptic spring-like magnetic tension as it locks into suspension.",
+      honestSnags: [
+            "Setting the orb into magnetic equilibrium requires two hands and patience on the first attempt.",
+            "Power outage or cord yank will cause the sphere to snap down onto the magnetic base with a sharp clack.",
+            "Rotating speed depends on initial finger nudge; spins for days but gradually slows if air currents counter it."
       ],
-      "curatorVerdict": "Zero strings, zero physical contact. Having a glowing miniature celestial body floating over your desk is genuinely soothing.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 35,
-          "label": "Topographical 3D Lunar Relief Surface",
-          "detail": "Accurate NASA elevation topography rendered in high-impact PLA with internal wireless induction LED."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 68,
-          "label": "Magnetic Levitation Gap",
-          "detail": "Stable 15mm magnetic air suspension allowing perpetual frictionless rotation."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 88,
-          "label": "Electromagnetic Solid Oak Base",
-          "detail": "Weighted wood block concealing servo electromagnets and touch sensor for toggling warm/white light."
-        }
+      curatorVerdict: "Literal magic on your nightstand. Seeing an illuminated full moon rotating silently in mid-air defies everyday gravity intuition.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "NASA Topographic Lunar Relief",
+                  detail: "3D printed from high-res Lunar Reconnaissance Orbiter elevation maps."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 70,
+                  label: "Wireless Induction Power Receiver",
+                  detail: "Electromagnetic resonant coil inside orb powering internal warm/cool LEDs wirelessly."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 90,
+                  label: "Walnut Electromagnetic Stator Base",
+                  detail: "Quad-coil magnetic levitation driver with active PID position feedback."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 2,
-      "priceRange": "$120 — $155 USD",
-      "primaryChannels": [
-        "TikTok Shop (Trending Home Decor)",
-        "Amazon Ambient Lighting"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: "$125 — $155 USD",
+      primaryChannels: [
+            "TikTok Shop Home Aesthetics",
+            "Levitation Design Studio"
       ],
-      "searchKeywords": [
-        "Magnetic Levitating Moon Lamp",
-        "Floating Moon Light 3D Print",
-        "Levitation Desk Moon Globe"
+      searchKeywords: [
+            "Magnetic Levitating Moon Lamp",
+            "Floating 3D Moon Walnut Base",
+            "Wireless Power Levitation Sphere"
       ],
-      "antiFraudWarning": "Avoid non-levitating models that sit on plastic tripod stands. Ensure magnetic active balance levitation is specified.",
-      "directOutbound": {
-        "label": "Source on TikTok Shop Direct",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Look for wireless inductive power transfer. Avoid fake models with dangling transparent nylon cords or fixed acrylic stands.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-021",
-    "specimenCode": "TIKTOK-VISOR // #1-TECHWEAR",
-    "title": "Luminous Cyberpunk LED Visor Glasses with 7 Dynamic Color Modes",
-    "category": "WEARABLE_ANOMALIES",
-    "curatorId": "cr-algo-03",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.1,
-    "priceValue": 118,
-    "platform": "TikTok Shop",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL TECHWEAR EYEWEAR (220K+ SOLD)",
-    "scarcityBadge": "7-COLOR DUAL LED",
-    "heroImage": "/items/anm-021.jpg",
-    "gallery": [
-      "/items/anm-021.jpg"
-    ],
-    "tagline": "Transparent curved acrylic visor with laser-etched futuristic circuit patterns, illuminated by bilateral RGB LEDs across 7 selectable colors.",
-    "tags": [
-      "TIKTOK SHOP 40%",
-      "CYBERPUNK VISOR",
-      "LED GLASSES",
-      "7 COLOR MODES",
-      "FUTURISTIC HUD"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Includes anti-scratch protective pouch, dual CR2032 battery sets, and microfiber cleaning cloth.",
-      "tactileFeedback": "Lightweight optical acrylic visor with smooth rounded edges. Independent switches on both sides allow mixing dual colors simultaneously.",
-      "honestSnags": [
-        "Peripheral vision is partially illuminated by the bright edge LEDs in dark environments.",
-        "High-gloss acrylic can collect fingerprints; requires regular buffing with the microfiber cloth.",
-        "Not designed to fit comfortably over thick prescription eyeglasses."
+    id: 'anm-021',
+    specimenCode: 'TIKTOK-CYBER-VISOR // #1-LED',
+    title: "Luminous Cyberpunk LED Visor Glasses with 7 Dynamic Color Modes",
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-03',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.1,
+    priceValue: 118,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL COSPLAY & RAVE PROP (350K+ SOLD)',
+    scarcityBadge: 'BILATERAL DUAL-EMITTER',
+    heroImage: '/items/anm-021.jpg',
+    gallery: ["/items/anm-021.jpg"],
+    tagline: "Futuristic edge-lit acrylic visor spectacles featuring laser-engraved circuit traces and dual independent temple color controllers.",
+    tags: ["TIKTOK SHOP 40%","CYBERPUNK VISOR","LED EYEWEAR","EDGE LIT","CLUB ANOMALY"],
+    fieldObservation: {
+      unboxingLog: "Packs in rigid EVA clamshell case with cleaning cloth, micro USB charger, and spare nose pads.",
+      tactileFeedback: "Lightweight crystal-clear optical acrylic with smooth laser-beveled edges. Button clicks on both temples feel clicky and tactile.",
+      honestSnags: [
+            "Internal edge reflections can cause glare in totally pitch-black outdoor settings.",
+            "Laser-etched traces require microfiber cloth cleaning to keep free of finger oils.",
+            "Not rated as ballistic or safety impact eye protection."
       ],
-      "curatorVerdict": "Instant cybernetic transformation. The engraved circuit patterns catch the side LEDs and look stunning on camera.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 25,
-          "label": "Laser-Etched Circuit HUD Graticule",
-          "detail": "Optical edge-lit acrylic panel engraved with futuristic reticles that catch and redirect the LED light."
-        },
-        {
-          "id": "hs-2",
-          "x": 22,
-          "y": 18,
-          "label": "Dual Bilateral RGB LED Controllers",
-          "detail": "Independent push-button switches on left and right temples for customizing color and flashing modes."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 40,
-          "label": "Contoured Silicone Nose Rest",
-          "detail": "Soft hypoallergenic bridge ensuring comfortable wear during conventions and live performances."
-        }
+      curatorVerdict: "Instant blade-runner transformation. Dual temple controls let you mix contrasting hues across left and right eyes for dramatic portraits.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 45,
+                  label: "Optical Laser-Etched Circuit Trace",
+                  detail: "High-purity PMMA acrylic sheet internally reflecting light along engraved vectors."
+            },
+            {
+                  id: "hs-2",
+                  x: 20,
+                  y: 55,
+                  label: "Left Temple Micro-LED Controller",
+                  detail: "Independent RGB driver cycling through monochrome, breathing, and flash modes."
+            },
+            {
+                  id: "hs-3",
+                  x: 80,
+                  y: 55,
+                  label: "Right Temple Micro-LED Controller",
+                  detail: "Allows two-tone chromatic splits across the facial plane."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 2,
-      "priceRange": "$105 — $135 USD",
-      "primaryChannels": [
-        "TikTok Shop (Techwear & Festival Gear)",
-        "AliExpress Cyber Hub"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: "$105 — $130 USD",
+      primaryChannels: [
+            "TikTok Shop Rave Gear",
+            "NeoTokyo Prop Vault"
       ],
-      "searchKeywords": [
-        "Cyberpunk LED Visor Glasses",
-        "Luminous Futuristic Glasses 7 Colors",
-        "Neon Glowing Party Eyewear"
+      searchKeywords: [
+            "Cyberpunk LED Visor Dual Control",
+            "Luminous Futuristic Glasses LED",
+            "Edge Lit Acrylic Cosplay Visor"
       ],
-      "antiFraudWarning": "Look for dual independent side controls to enable two-tone color blending; cheap single-color models lack versatility.",
-      "directOutbound": {
-        "label": "Inspect on TikTok Shop Techwear",
-        "url": "https://shop.tiktok.com",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Avoid single-battery cheap party shades with wired battery packs in your pocket. Insist on dual built-in rechargeable temple batteries.",
+      directOutbound: {
+            label: "Inspect on TikTok Shop Feed",
+            url: "https://shop.tiktok.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-022",
-    "specimenCode": "AMZ-SHORTWAVE // #1-RADIO",
-    "title": "Vintage Wooden AM/FM/SW Shortwave Radio & Bluetooth Acoustic Speaker",
-    "category": "ODD_DESK_TACTILE",
-    "curatorId": "cr-algo-01",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9,
-    "priceValue": 159,
-    "platform": "Amazon",
-    "salesRank": 1,
-    "salesRankBadge": "#1 TOP RATED RETRO AUDIO",
-    "scarcityBadge": "ANALOG TUNING DIAL",
-    "heroImage": "/items/anm-022.jpg",
-    "gallery": [
-      "/items/anm-022.jpg"
-    ],
-    "tagline": "Classic mahogany-finish acoustic cabinet featuring multi-band analog shortwave receiver, copper mesh grille, telescopic antenna, and Bluetooth 5.0.",
-    "tags": [
-      "AMAZON TOP",
-      "RETRO RADIO",
-      "SHORTWAVE SW",
-      "MAHOGANY CABINET",
-      "ANALOG DIAL"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Ships in heavy vintage-style box with AC charging cable, 3.5mm AUX cord, and user manual with global shortwave frequency chart.",
-      "tactileFeedback": "Solid wood housing with warm stain. The smooth weighted tuning dial provides that authentic analog resistance when scanning frequencies.",
-      "honestSnags": [
-        "Shortwave reception depends heavily on atmospheric conditions, nighttime ionosphere, and indoor electrical interference.",
-        "Analog dial takes patience to lock onto faint distant broadcast frequencies.",
-        "Cabinet is larger and heavier than plastic pocket radios."
+    id: 'anm-022',
+    specimenCode: 'AMZ-TUBE-RADIO // #1-VINTAGE',
+    title: "Vintage Wooden AM/FM/SW Shortwave Radio & Bluetooth Acoustic Speaker",
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-01',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.3,
+    priceValue: 159,
+    platform: 'Amazon',
+    salesRank: 1,
+    salesRankBadge: '#1 BESTSELLER RETRO AUDIO',
+    scarcityBadge: 'WARM ANALOG TUBE VOICING',
+    heroImage: '/items/anm-022.jpg',
+    gallery: ["/items/anm-022.jpg"],
+    tagline: "Hand-crafted walnut cabinet shortwave receiver with analog tuning dial, magic-eye tuning indicator tube, and modern Bluetooth 5.0.",
+    tags: ["AMAZON #1","VINTAGE RADIO","SHORTWAVE SW","WALNUT CABINET","ANALOG TUNER"],
+    fieldObservation: {
+      unboxingLog: "Heavy cardboard vintage-styled crate with external wire antenna spool, AUX cable, and cloth-braided power cord.",
+      tactileFeedback: "Weighted aluminum rotary tuning dial with flywheel momentum. The amber dial glow illuminates with warm analog nostalgia.",
+      honestSnags: [
+            "Shortwave (SW) frequency reception requires unfurling the included long wire antenna near a window.",
+            "Weighs over 3.2kg; designed strictly for a desk or bookshelf, not portability.",
+            "Bass tuning leans thick and resonant; modern hyper-compressed podcasts may sound extra boomy."
       ],
-      "curatorVerdict": "Pulls the crackling sounds of foreign radio stations out of thin air. An acoustic time machine disguised as living room decor.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 80,
-          "y": 15,
-          "label": "Telescopic High-Gain Antenna",
-          "detail": "Extendable steel whip antenna optimizing high-frequency reception for international shortwave broadcasts."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 50,
-          "label": "Woven Copper Acoustic Grille",
-          "detail": "Warm retro speaker baffle delivering rich bass resonance and clear midrange vocal fidelity."
-        },
-        {
-          "id": "hs-3",
-          "x": 70,
-          "y": 75,
-          "label": "Rotary Analog Tuning Dial & Band Selector",
-          "detail": "Weighted smooth rotary knob with illuminated frequency scale for precise AM, FM, and SW station locks."
-        }
+      curatorVerdict: "Late-night shortwave listening is a dying art. Tuning through crackling foreign stations with this weighted brass dial is pure meditation.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "Weighted Flywheel Analog Tuning Dial",
+                  detail: "Silky smooth reduction gearing for pinpoint frequency scanning."
+            },
+            {
+                  id: "hs-2",
+                  x: 75,
+                  y: 40,
+                  label: "Magic Eye Green Vacuum Indicator",
+                  detail: "Electron-ray beam tube narrowing as radio signal reaches optimum resonance."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 80,
+                  label: "Acoustic Ported Walnut Cabinet",
+                  detail: "Solid timber enclosure delivering rich mid-range acoustic resonance."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 2,
-      "priceRange": "$140 — $175 USD",
-      "primaryChannels": [
-        "Amazon Retro Electronics",
-        "Vintage Audio Restorations"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$145 — $175 USD",
+      primaryChannels: [
+            "Amazon Audio Classics",
+            "Retro Sound Warehouse"
       ],
-      "searchKeywords": [
-        "Retro Wood Shortwave Radio Bluetooth",
-        "Vintage SW AM FM Desktop Radio",
-        "Classic Wooden Radio Receiver"
+      searchKeywords: [
+            "Vintage Wooden Shortwave Radio Bluetooth",
+            "Retro Tube Style AM FM Radio Dial",
+            "Analog Walnut Tabletop Radio"
       ],
-      "antiFraudWarning": "Ensure the unit includes true SW (shortwave) bands rather than just standard FM/AM.",
-      "directOutbound": {
-        "label": "Examine on Amazon Retro Audio",
-        "url": "https://www.amazon.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Check for true analog rotary capacitor tuning. Avoid cheap plastic radios with fake printed paper dials behind clear windows.",
+      directOutbound: {
+            label: "Inspect on Amazon Electronics",
+            url: "https://amazon.com",
+            sourceType: "Official Reseller"
       }
-    }
+}
   },
+
   {
-    "id": "anm-023",
-    "specimenCode": "AMZ-OASIS // #1-KINETIC",
-    "title": "Grounded Labs Oasis Mini Kinetic Sand Art Desk Table",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.5,
-    "priceValue": 199,
-    "platform": "Amazon",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL KINETIC ART",
-    "scarcityBadge": "MAGNETIC SPHERE PLOTTER",
-    "heroImage": "/items/anm-023.jpg",
-    "gallery": [
-      "/items/anm-023.jpg"
-    ],
-    "tagline": "Circular desktop kinetic sculpture using a hidden magnetic robotic arm to guide a steel sphere through fine silica sand, carving infinite hypnotic patterns.",
-    "tags": [
-      "AMAZON TOP",
-      "KINETIC SAND",
-      "OASIS MINI",
-      "MAGNETIC PLOTTER",
-      "ZEN ART"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Arrives assembled with real wood frame, bag of fine quartz silica sand, chrome ball bearings, and smartphone app setup guide.",
-      "tactileFeedback": "Solid wood rim with smooth circular bevel. The steel ball moves quietly through the sand, leaving crisp geometric ridges under soft RGB lighting.",
-      "honestSnags": [
-        "Requires level desk surface; an unlevel desk will cause sand to drift toward one edge over time.",
-        "Must avoid getting pet hair or debris into the open sand bed during initial sand pouring.",
-        "Internal stepper motor emits a faint, rhythmic purr during complex geometric drawing passes."
+    id: 'anm-023',
+    specimenCode: 'AMZ-SAND-TABLE // #1-KINETIC',
+    title: "Grounded Labs Oasis Mini Kinetic Sand Art Desk Table",
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.6,
+    priceValue: 199,
+    platform: 'Amazon',
+    salesRank: 1,
+    salesRankBadge: '#1 BESTSELLER KINETIC ART',
+    scarcityBadge: 'MAGNETIC SPHERE AUTOMATON',
+    heroImage: '/items/anm-023.jpg',
+    gallery: ["/items/anm-023.jpg"],
+    tagline: "Automated kinetic coffee-table art piece carving intricate geometric mandala patterns into fine silica sand via a sub-surface magnetic sphere.",
+    tags: ["AMAZON #1","KINETIC SAND ART","AUTOMATED PLOTTER","ZEN MANDALA","MAGNETIC SPHERE"],
+    fieldObservation: {
+      unboxingLog: "Heavy sealed cylinder with fine white silica sand pouches, precision steel marbles, glass lid, and smartphone Wi-Fi bridge.",
+      tactileFeedback: "Glass top is flush and cool. The silent two-axis magnetic gantry beneath glides silently as the marble carves crisp rippling trails.",
+      honestSnags: [
+            "Sand must be raked completely level during initial setup to avoid pile-ups near edges.",
+            "Wi-Fi app setup requires 2.4GHz network band connection.",
+            "High speed plot mode generates faint stepper motor whirring audible in quiet bedrooms."
       ],
-      "curatorVerdict": "The ultimate meditative desk companion. Watching the sphere carve intricate sea turtle and spiral patterns in silent sand brings instant tranquility.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 58,
-          "y": 48,
-          "label": "Magnetically Driven Chrome Steel Ball",
-          "detail": "Single precision ball bearing carving geometric sand ripples via sub-surface 2-axis stepper motors."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 35,
-          "label": "Silica Sand Bed & Tempered Glass Cover",
-          "detail": "Fine white silica sand protected by dust-free tempered top glass for silent uninterrupted operation."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 70,
-          "label": "Full-Spectrum Ambient RGB Ring",
-          "detail": "Perimeter addressable LED rim creating deep shadows and dramatic relief lighting across the sand patterns."
-        }
+      curatorVerdict: "Ever-shifting zen architecture for your workspace. Watching the lone steel marble carve infinite spiral mandalas is supremely hypnotic.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 45,
+                  label: "Mirror Polished Chrome Steel Sphere",
+                  detail: "Follows magnetic field vectors through glass-smooth silica sand."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 75,
+                  label: "Sub-Surface SCARA Kinematic Gantry",
+                  detail: "Dual stepper motor arm drawing complex vector paths silently beneath sandbed."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 15,
+                  label: "Flush Tempered Glass Protective Cover",
+                  detail: "Dust-sealed crystal glass maintaining clean sandbed topography."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$180 — $220 USD",
-      "primaryChannels": [
-        "Amazon Kinetic Art Store",
-        "Grounded Labs Official"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$180 — $220 USD",
+      primaryChannels: [
+            "Amazon Kinetic Design",
+            "Sisyphus Art Direct"
       ],
-      "searchKeywords": [
-        "Oasis Mini Kinetic Sand Art Table",
-        "Sisyphus Sand Art Desk Lamp",
-        "Automated Magnetic Sand Plotter"
+      searchKeywords: [
+            "Oasis Mini Kinetic Sand Table",
+            "Automated Sand Art Table Machine",
+            "Kinetic Sand Drawing Machine Wi-Fi"
       ],
-      "antiFraudWarning": "Beware of manual tilt sand art frames. Look for motorized sub-surface magnetic steppers with mobile app pattern control.",
-      "directOutbound": {
-        "label": "Source on Amazon Kinetic Design",
-        "url": "https://www.amazon.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Avoid vibrating motor copies that produce blurry patterns. Insist on true two-axis polar or cartesian magnetic plotters.",
+      directOutbound: {
+            label: "Inspect on Amazon Design",
+            url: "https://amazon.com",
+            sourceType: "Authorized Dealer"
       }
-    }
+}
   },
+
   {
-    "id": "anm-024",
-    "specimenCode": "ALI-MECHA // #1-ARMOR",
-    "title": "Cyberpunk Mecha Tactical Half-Face Respirator Mask with Green LED Accents",
-    "category": "WEARABLE_ANOMALIES",
-    "curatorId": "cr-algo-03",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.3,
-    "priceValue": 145,
-    "platform": "AliExpress",
-    "salesRank": 1,
-    "salesRankBadge": "#1 TECHWEAR COSPLAY RELIC",
-    "scarcityBadge": "MODULAR MECHA PLATING",
-    "heroImage": "/items/anm-024.jpg",
-    "gallery": [
-      "/items/anm-024.jpg"
-    ],
-    "tagline": "Aggressive multi-layered tactical face armor with mechanical exoskeleton jaw, dual LED accent canisters, and quick-adjust magnetic buckle harness.",
-    "tags": [
-      "ALIEXPRESS #1",
-      "MECHA MASK",
-      "CYBERPUNK ARMOR",
-      "LED CANISTERS",
-      "TECHWEAR COSPLAY"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Heavy tactical box with modular faceplate components, rechargeable lithium battery pack, and hex adjustment tool.",
-      "tactileFeedback": "Dense composite plastic and metal joint hardware. Fits securely over the lower jaw with cushioned inner padding for extended wear.",
-      "honestSnags": [
-        "Decorative sci-fi design; does not function as an industrial respirator or medical N95 filter.",
-        "Muffles speech slightly during normal speaking volumes.",
-        "Needs occasional tightening of decorative outer hex screws after active cosplay movement."
+    id: 'anm-024',
+    specimenCode: 'ALI-BIOMECH-HELM // #1-PROP',
+    title: "Cyberpunk Mecha Tactical Half-Face Respirator Mask with Green LED Accents",
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-03',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.8,
+    priceValue: 145,
+    platform: 'AliExpress',
+    salesRank: 1,
+    salesRankBadge: '#1 GLOBAL BESTSELLER CYBER PROP',
+    scarcityBadge: 'ALLOY COMPOSITE ARMOR',
+    heroImage: '/items/anm-024.jpg',
+    gallery: ["/items/anm-024.jpg"],
+    tagline: "Articulated cyberpunk respirator helmet with active air filtration, dual circular green LED canister meters, and voice modulation mic.",
+    tags: ["ALIEXPRESS #1","CYBER RESPIRATOR","VOICE MODULATOR","LED CANISTERS","DYSTOPIAN WEAR"],
+    fieldObservation: {
+      unboxingLog: "Packs in an industrial foam flight case with spare HEPA filter cartridges, mic boom, and USB charging cables.",
+      tactileFeedback: "Dense composite resin and aluminum alloy brackets. The internal voice modulator lowers vocal pitch with authentic mechanical vocoder grit.",
+      honestSnags: [
+            "Full-face seal reduces peripheral vision; requires practice before navigating dark stairs.",
+            "Not certified for hazardous biological or industrial chemical fumes (decorative HEPA filtration only).",
+            "Wearing this into a local bank will result in an immediate tactical response."
       ],
-      "curatorVerdict": "Pure armored dystopian street presence. The aggressive geometry and vibrant green LED canisters look straight out of Ghost in the Shell.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 48,
-          "label": "Vented Mecha Respirator Faceplate",
-          "detail": "Reinforced polymer honeycomb grille providing breathable airflow with intimidating sci-fi aesthetics."
-        },
-        {
-          "id": "hs-2",
-          "x": 75,
-          "y": 52,
-          "label": "Luminous Cybernetic LED Canister",
-          "detail": "Twin rechargeable green LED lighting modules with independent click-switch toggles."
-        },
-        {
-          "id": "hs-3",
-          "x": 42,
-          "y": 28,
-          "label": "Angled Tactical Visor Integration",
-          "detail": "Precision cutouts designed to fit seamlessly beneath tactical goggles or techwear hoods."
-        }
+      curatorVerdict: "Peak dystopian theater. When the dual LED canisters spin up and the voice amplifier transforms your voice into an android baritone, reality dissolves.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 45,
+                  y: 40,
+                  label: "Dual Circular LED Display Canisters",
+                  detail: "Round screens mounted on cheek filters showing real-time audio wave monitors."
+            },
+            {
+                  id: "hs-2",
+                  x: 55,
+                  y: 55,
+                  label: "Integrated Vocoder Voice Modulator",
+                  detail: "Internal microphone and speaker unit pitch-shifting voice into robotic synth tones."
+            },
+            {
+                  id: "hs-3",
+                  x: 65,
+                  y: 75,
+                  label: "Multi-Point Magnetic Buckle Straps",
+                  detail: "Heavy nylon tactical straps with Fidlock magnetic quick-release clasps."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$130 — $165 USD",
-      "primaryChannels": [
-        "AliExpress Techwear Specialty Stores",
-        "HypeBrother Atelier"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$135 — $165 USD",
+      primaryChannels: [
+            "AliExpress Tactical Cyberpunk Workshop",
+            "Shenzhen Cosplay Lab"
       ],
-      "searchKeywords": [
-        "Cyberpunk Mecha Mask LED",
-        "Tactical Respirator Cosplay Armor",
-        "Futuristic Half Face Cyber Helmet"
+      searchKeywords: [
+            "Cyberpunk Helmet LED Mask",
+            "Respirator Cosplay Voice Modulator",
+            "Mechanical Cyber Mask Headwear"
       ],
-      "antiFraudWarning": "Avoid cheap thin vacuum-formed plastic Halloween masks. Look for composite thick shell with real modular screws and rechargeable LEDs.",
-      "directOutbound": {
-        "label": "Acquire via AliExpress Techwear",
-        "url": "https://www.aliexpress.com",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Avoid thin vac-formed plastic masks without electronics. Ensure metal screws, active LED rings, and voice amplifier electronics.",
+      directOutbound: {
+            label: "Inspect AliExpress Global Workshop",
+            url: "https://aliexpress.com",
+            sourceType: "Official Workshop"
       }
-    }
+}
   },
+
   {
-    "id": "anm-025",
-    "specimenCode": "ETSY-TAXIDERMY // #1-BAT",
-    "title": "Authentic Preserved Bat Taxidermy Specimen in Wooden Shadow Box",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-05",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.8,
-    "priceValue": 165,
-    "platform": "Etsy",
-    "salesRank": 1,
-    "salesRankBadge": "#1 NATURAL HISTORY CURIO",
-    "scarcityBadge": "REAL TAXIDERMY SPECIMEN",
-    "heroImage": "/items/anm-025.jpg",
-    "gallery": [
-      "/items/anm-025.jpg"
-    ],
-    "tagline": "Ethically sourced genuine bat specimen meticulously prepared and mounted with full wingspan inside an archival black wooden glass-front shadow box.",
-    "tags": [
-      "ETSY CURIO",
-      "REAL TAXIDERMY",
-      "BAT SPECIMEN",
-      "SHADOW BOX",
-      "CABINET OF CURIOSITY"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Double-boxed with heavy bubble wrap and silica gel packets, complete with species identification tag and provenance documentation.",
-      "tactileFeedback": "Glass-sealed wooden shadow box. Looking closely reveals the delicate bone structure of the elongated fingers supporting the leather wing membrane.",
-      "honestSnags": [
-        "Keep out of direct harsh sunlight to prevent natural fading of delicate fur and wing pigmentation.",
-        "Not suitable for humid bathrooms; excess moisture could compromise natural archival preservation.",
-        "May provoke strong emotional reactions from sensitive visitors."
+    id: 'anm-025',
+    specimenCode: 'ETSY-TAXIDERMY-BAT // #1-CURIO',
+    title: "Authentic Preserved Bat Taxidermy Specimen in Wooden Shadow Box",
+    category: 'ZINES_RELICS',
+    curatorId: 'cr-algo-05',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.7,
+    priceValue: 165,
+    platform: 'Etsy',
+    salesRank: 1,
+    salesRankBadge: '#1 STAR SELLER ODDITIES MASTERPIECE',
+    scarcityBadge: 'MUSEUM CONSERVATOR GRADE',
+    heroImage: '/items/anm-025.jpg',
+    gallery: ["/items/anm-025.jpg"],
+    tagline: "Ethically salvaged articulated bat skeleton mounted in a museum-grade archival shadowbox with vintage Latin botanical and osteological placards.",
+    tags: ["ETSY #1","STEAMPUNK TAXIDERMY","BAT SKELETON","WALNUT SHADOWBOX","CABINET CURIOSITY"],
+    fieldObservation: {
+      unboxingLog: "Heavy timber crate lined with museum-grade bubble wrap and archival acid-free tissue paper with signed origin certificate.",
+      tactileFeedback: "Richly stained walnut case with heavy brass corner brackets. Glass is anti-reflective museum grade with zero glare.",
+      honestSnags: [
+            "Requires wall anchor mounting; the solid hardwood frame and glass front weigh over 2.4kg.",
+            "Avoid mounting in direct sunlight to protect delicate natural bone enamel from fading.",
+            "Some guests and sensitive family members may find the biological curio startling or unsettling."
       ],
-      "curatorVerdict": "A magnificent piece of natural history. The symmetry of the outstretched wings and preservation of anatomical detail make it a museum-tier display.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 30,
-          "y": 45,
-          "label": "Intact Translucent Wing Membrane",
-          "detail": "Natural leathery skin structure clearly displaying delicate finger bone anatomy and dactylopatagium."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 55,
-          "label": "Preserved Torso & Cranium Morphology",
-          "detail": "Natural fur, pointed ears, and articulated jaw preserved through professional museum-grade taxidermy."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 80,
-          "label": "Archival Glass-Front Shadow Box Frame",
-          "detail": "Deep matte black wooden frame lined with white protective backing for wall hanging or desk display."
-        }
+      curatorVerdict: "Victorian natural history cabinet perfection. The delicate wing bones and gothic brass accents make it an unmatched conversation anchor.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 40,
+                  label: "Articulated Chiroptera Wing Skeleton",
+                  detail: "Delicate finger bones extended in flight posture with micro-pins."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 70,
+                  label: "Hand-Aged Latin Specimen Placard",
+                  detail: "Letterpress printed on cotton rag paper detailing genus and salvage locality."
+            },
+            {
+                  id: "hs-3",
+                  x: 25,
+                  y: 85,
+                  label: "Antique Patinated Brass Hinges & Latch",
+                  detail: "Hand-cast hardware securing the solid walnut shadowbox frame."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 4,
-      "priceRange": "$145 — $185 USD",
-      "primaryChannels": [
-        "Etsy Oddity & Curiosity Shops",
-        "Natural History Collectibles"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: "$150 — $180 USD",
+      primaryChannels: [
+            "Etsy Curiosities Guild",
+            "Edinburgh Osteology Atelier"
       ],
-      "searchKeywords": [
-        "Preserved Bat Shadow Box Taxidermy",
-        "Real Framed Bat Specimen",
-        "Oddities Bat Wall Display"
+      searchKeywords: [
+            "Preserved Bat Shadow Box Taxidermy",
+            "Bat Skeleton Frame Articulated",
+            "Victorian Curiosities Shadowbox"
       ],
-      "antiFraudWarning": "Ensure the seller provides ethical sourcing provenance and uses proper archival glass shadow boxes.",
-      "directOutbound": {
-        "label": "Examine on Etsy Curiosities",
-        "url": "https://www.etsy.com",
-        "sourceType": "Artisan Studio"
+      antiFraudWarning: "Ensure the seller provides authentic ethical salvage documentation. Avoid illegally hunted or poached specimens.",
+      directOutbound: {
+            label: "Inspect on Etsy Artisan Vault",
+            url: "https://etsy.com",
+            sourceType: "Independent Artisan"
       }
-    }
+}
   },
+
   {
-    "id": "anm-026",
-    "specimenCode": "RAKUTEN-GAKKEN // #1-SYNTH",
-    "title": "Gakken SX-150 Mark II Stylus Ribbon Analog Synthesizer",
-    "category": "CYBER_HARDWARE",
-    "curatorId": "cr-algo-04",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.2,
-    "priceValue": 175,
-    "platform": "Rakuten",
-    "salesRank": 1,
-    "salesRankBadge": "#1 TOKYO RETRO SYNTH COLLECTIBLE",
-    "scarcityBadge": "RIBBON CONTROLLER",
-    "heroImage": "/items/anm-026.jpg",
-    "gallery": [
-      "/items/anm-026.jpg"
-    ],
-    "tagline": "Cult classic Tokyo analog synthesizer featuring a continuous conductive ribbon strip played with a tethered metal stylus, VCF filter, and LFO modulation.",
-    "tags": [
-      "RAKUTEN #1",
-      "GAKKEN SX-150",
-      "ANALOG SYNTH",
-      "RIBBON CONTROLLER",
-      "TOKYO AUDIO"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Imported in original Japanese bilingual packaging with conductive stylus pen, 4x AA battery compartment, and circuit modification guide.",
-      "tactileFeedback": "Textured red ABS chassis with smooth potentiometer dials. Touching the conductive metal stylus to the carbon ribbon strip unleashes fat analog sawtooth tones.",
-      "honestSnags": [
-        "Built-in miniature speaker has low bass response; best plugged into an external amplifier or headphones.",
-        "Continuous ribbon means pitch requires muscle memory and ear-tuning rather than fixed chromatic frets.",
-        "Runs on 4x AA batteries; battery life is approx 6 to 8 hours of continuous buzzing."
+    id: 'anm-026',
+    specimenCode: 'RAK-GAKKEN-SYNTH // #1-TOKYO',
+    title: "Gakken SX-150 Mark II Stylus Ribbon Analog Synthesizer",
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-04',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.6,
+    priceValue: 175,
+    platform: 'Rakuten',
+    salesRank: 1,
+    salesRankBadge: '#1 RAKUTEN TOKYO SYNTH COLLECTIBLE',
+    scarcityBadge: 'OUT-OF-PRINT JAPAN VAULT',
+    heroImage: '/items/anm-026.jpg',
+    gallery: ["/items/anm-026.jpg"],
+    tagline: "Legendary Tokyo desktop analog noise generator played with a conductive stylus on a ribbon controller with resonant VCF and LFO.",
+    tags: ["RAKUTEN #1","GAKKEN SX-150","ANALOG SYNTH","RIBBON CONTROLLER","TOKYO HARDWARE"],
+    fieldObservation: {
+      unboxingLog: "Mint Japanese box with original Otona no Kagaku magazine volume, alligator ground lead, and tethered metal stylus.",
+      tactileFeedback: "Classic Japanese matte plastic chassis with clicky slide switches and smooth analog potentiometer knobs. The ribbon controller glides effortlessly.",
+      honestSnags: [
+            "Monophonic stylus play requires ear training to hit exact microtonal notes accurately.",
+            "Runs on AA batteries; does not include built-in modern USB-C charging.",
+            "Internal speaker is small and lo-fi; best experienced plugged into studio headphones or a tube guitar amplifier."
       ],
-      "curatorVerdict": "A legend of Japanese DIY synth culture. Running the stylus across the strip while twisting the Cutoff and Resonance pots produces wild sci-fi theremin glides.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 58,
-          "y": 80,
-          "label": "Conductive Stylus Ribbon Controller",
-          "detail": "Resistive touch strip allowing continuous pitch glides, microtonal slides, and vibrato."
-        },
-        {
-          "id": "hs-2",
-          "x": 52,
-          "y": 22,
-          "label": "Resonant VCF Cutoff & Pitch Controls",
-          "detail": "Classic analog low-pass filter knobs capable of screaming self-oscillation and squelchy sweeps."
-        },
-        {
-          "id": "hs-3",
-          "x": 20,
-          "y": 78,
-          "label": "Integrated Monitor Speaker & 3.5mm Out",
-          "detail": "Built-in miniature speaker grille with line output for driving guitar pedals and audio interfaces."
-        }
+      curatorVerdict: "Pure analog electronic soul from Tokyo. Sliding the metal stylus across the ribbon while sweeping resonance creates screeching retro sci-fi sirens.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "Linear Pitch Ribbon Strip",
+                  detail: "Conductive resistive membrane played via tethered metal contact stylus."
+            },
+            {
+                  id: "hs-2",
+                  x: 70,
+                  y: 60,
+                  label: "Resonant VCF Cutoff Knob",
+                  detail: "Aggressive 24dB ladder filter capable of rich analog self-oscillation."
+            },
+            {
+                  id: "hs-3",
+                  x: 30,
+                  y: 70,
+                  label: "Square / Triangle LFO Modulator",
+                  detail: "Variable speed low-frequency oscillator modulating pitch or filter cutoff."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$155 — $195 USD",
-      "primaryChannels": [
-        "Rakuten Japan Imports",
-        "Tokyo Electronic Music Bazaars"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: "$160 — $195 USD",
+      primaryChannels: [
+            "Rakuten Japan Vintage Vault",
+            "Tokyo Akihabara Radio Store"
       ],
-      "searchKeywords": [
-        "Gakken SX-150 Mark II Analog Synthesizer",
-        "Stylus Ribbon Synth Japan",
-        "Gakken Pocket Synthesizer"
+      searchKeywords: [
+            "Gakken SX-150 Mark II Synthesizer",
+            "Gakken Analog Ribbon Synth Japan",
+            "Otona no Kagaku Synth Kit"
       ],
-      "antiFraudWarning": "Verify it is the Mark II edition with improved LFO rate and depth controls over the original 2008 release.",
-      "directOutbound": {
-        "label": "Source from Rakuten Tokyo Hub",
-        "url": "https://www.rakuten.co.jp",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Look for original Gakken Japan holographic seal. Many low-quality plastic knockoffs lack true analog VCF circuitry.",
+      directOutbound: {
+            label: "Inspect on Rakuten Tokyo Vault",
+            url: "https://rakuten.co.jp",
+            sourceType: "Authorized Dealer"
       }
-    }
+}
   },
+
   {
-    "id": "anm-027",
-    "specimenCode": "WALMART-FERRO // #1-ACOUSTIC",
-    "title": "Dancing Ferrofluid Sound Visualizer Desktop Bluetooth Speaker",
-    "category": "CYBER_HARDWARE",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.5,
-    "priceValue": 169,
-    "platform": "Mercari",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VIRAL FERROFLUID SPEAKER",
-    "scarcityBadge": "SOUND-ACTIVE MAGNETIC FLUID",
-    "heroImage": "/items/anm-027.jpg",
-    "gallery": [
-      "/items/anm-027.jpg"
-    ],
-    "tagline": "Futuristic egg-capsule smart speaker featuring an illuminated glass chamber where magnetic ferrofluid spikes and dances in sync with audio rhythms.",
-    "tags": [
-      "MERCARI PICK",
-      "FERROFLUID SPEAKER",
-      "SOUND VISUALIZER",
-      "BLUETOOTH 5.0",
-      "KINETIC LIQUID"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Ships in molded protective foam with USB-C fast charging cable, auxiliary line cable, and magnetic demonstration wand.",
-      "tactileFeedback": "Smooth matte black egg-shaped housing with clear optical glass dome. When bass drops hit, the magnetic fluid explodes into alien spikes.",
-      "honestSnags": [
-        "Avoid exposing to temperatures below 0°C or above 50°C, which can cause fluid viscosity changes.",
-        "Keep strong rare-earth magnets away from the glass dome to prevent ferrofluid sticking to the glass wall.",
-        "High volume bass tracks trigger the most dramatic fluid jumps; classical acoustic tracks produce subtler ripples."
+    id: 'anm-027',
+    specimenCode: 'MERC-FERRO-HUB // #1-FLUIDIC',
+    title: "Dancing Ferrofluid Sound Visualizer Desktop Bluetooth Speaker",
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.7,
+    priceValue: 169,
+    platform: 'Mercari',
+    salesRank: 1,
+    salesRankBadge: '#1 VERIFIED BOUTIQUE RESALE HIT',
+    scarcityBadge: 'HERMETIC NANO-FERRO CELL',
+    heroImage: '/items/anm-027.jpg',
+    gallery: ["/items/anm-027.jpg"],
+    tagline: "Encapsulated alien-like magnetic fluid reacting to audio frequencies with sharp dynamic spikes inside an LED-lit crystal chamber.",
+    tags: ["MERCARI #1","FERROFLUID SPEAKER","MAGNETIC VISUALIZER","DESK SCIFI","KINETIC AUDIO"],
+    fieldObservation: {
+      unboxingLog: "Packs in magnetic gift box with USB-C braided charging cable, pickup microphone sensitivity tool, and microfiber cloth.",
+      tactileFeedback: "Heavy solid aluminum housing with anti-vibration rubber feet. The ferrofluid forms spiky black blooms in real time as bass drops.",
+      honestSnags: [
+            "Extreme bass tracks at maximum volume can cause temporary fluid bead separation before re-coalescing.",
+            "Keep away from strong external neodymium magnets to prevent disrupting the internal electromagnetic bias field.",
+            "Chamber light is fixed color temperature (cool white or cyan depending on switch setting)."
       ],
-      "curatorVerdict": "Pure acoustic alchemy. Having an alien symbiote blob pulse to your favorite beats brings physical music visualization to another level.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 42,
-          "y": 30,
-          "label": "Suspended Ferrofluid Reaction Chamber",
-          "detail": "Sealed glass dome filled with nano-magnetic iron fluid suspended in transparent mineral suspension oil."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 46,
-          "label": "Capacitive Touch Power & LED Switch",
-          "detail": "Illuminated central touch control for toggling power, Bluetooth pairing, and multi-color backlighting."
-        },
-        {
-          "id": "hs-3",
-          "x": 50,
-          "y": 75,
-          "label": "Angular Geometric X-Stand Base",
-          "detail": "Vibration-damped matte black tripod stand isolating speaker resonances from desk surfaces."
-        }
+      curatorVerdict: "Looks like you captured a sentient drop of Venom inside a laboratory capsule. The organic, fluid spike dancing cannot be replicated by any digital display.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 45,
+                  label: "Hermetic Glass Fluid Cell",
+                  detail: "Optical grade glass tube filled with anti-staining clear carrier solution."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 80,
+                  label: "Magnetic Audio Coil Core",
+                  detail: "Electromagnetic transducer transforming audio frequencies into magnetic flux lines."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 20,
+                  label: "Top-Fired Full-Range Driver",
+                  detail: "High-clarity speaker cone delivering crisp audio while exciting fluid base."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$150 — $185 USD",
-      "primaryChannels": [
-        "Mercari Maker Listings",
-        "Walmart Acoustic Showcase"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$150 — $185 USD",
+      primaryChannels: [
+            "Mercari Curated Audio",
+            "Boutique Sound Resale"
       ],
-      "searchKeywords": [
-        "Dancing Ferrofluid Bluetooth Speaker",
-        "Magnetic Fluid Sound Visualizer",
-        "Ferrofluid Venom Music Lamp"
+      searchKeywords: [
+            "Dancing Ferrofluid Bluetooth Speaker",
+            "Magnetic Fluid Visualizer Music Display",
+            "Venom Ferrofluid Desk Speaker"
       ],
-      "antiFraudWarning": "Ensure the glass chamber uses anti-stick treated glass to avoid ferrofluid residue staining the view window.",
-      "directOutbound": {
-        "label": "View on Mercari Curated Drop",
-        "url": "https://www.mercari.com",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Inspect glass cell for staining or black residue sticking to walls. Quality cells use hydrophobic nano-coatings to keep glass spotless.",
+      directOutbound: {
+            label: "Inspect on Mercari Boutique",
+            url: "https://mercari.com",
+            sourceType: "Boutique Reseller"
       }
-    }
+}
   },
+
   {
-    "id": "anm-028",
-    "specimenCode": "AMZ-AIRZOOKA // #1-PHYSICS",
-    "title": "Can You Imagine Airzooka Handheld Air Vortex Blast Cannon",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-02",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.1,
-    "priceValue": 109,
-    "platform": "Amazon",
-    "salesRank": 1,
-    "salesRankBadge": "#1 CLASSIC VORTEX CANNON",
-    "scarcityBadge": "PULL-RELEASE AIR LAUNCHER",
-    "heroImage": "/items/anm-028.jpg",
-    "gallery": [
-      "/items/anm-028.jpg"
-    ],
-    "tagline": "Fun mechanical vortex generator that launches invisible, harmless balls of compressed air up to 50 feet away using elastic membrane recoil.",
-    "tags": [
-      "AMAZON #1",
-      "AIRZOOKA",
-      "VORTEX CANNON",
-      "PNEUMATIC BLAST",
-      "PHYSICS TOY"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Arrives pre-assembled with durable molded barrel, elastic pull bungee, pop-up sight, and purple ergonomic grip.",
-      "tactileFeedback": "Rigid lime-green cylindrical barrel. Pulling back the purple bungee cord and releasing sends an audible, punchy air pulse across the room.",
-      "honestSnags": [
-        "Large barrel diameter takes up some closet shelf space when not in active use.",
-        "Indoor use can ruffle loose papers, desktop sticky notes, and lightweight curtains across the room.",
-        "Requires two hands to operate (one to hold pistol grip, one to draw and release bungee)."
+    id: 'anm-028',
+    specimenCode: 'AMZ-VORTEX-CANNON // #1-AERO',
+    title: "Can You Imagine Airzooka Handheld Air Vortex Blast Cannon",
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 8.8,
+    priceValue: 109,
+    platform: 'Amazon',
+    salesRank: 1,
+    salesRankBadge: '#1 CLASSIC SCI-FI KINETIC CANNON',
+    scarcityBadge: 'ORIGINAL PATENTED AERO-CANNON',
+    heroImage: '/items/anm-028.jpg',
+    gallery: ["/items/anm-028.jpg"],
+    tagline: "Hand-powered acoustic air vortex generator launching harmless invisible toroidal air cannonballs up to 50 feet away.",
+    tags: ["AMAZON #1","AIRZOOKA","VORTEX CANNON","ACOUSTIC SHOCKWAVE","OFFICE WARFARE"],
+    fieldObservation: {
+      unboxingLog: "Arrives in original illustrated retail box with pop-up sighting reticle and elastic launcher assembly.",
+      tactileFeedback: "Rugged molded polymer funnel with high-tension rubberized diaphragm. Pulling back the bungee handle and releasing delivers a solid acoustic pop.",
+      honestSnags: [
+            "Vortex is invisible unless aimed through light smoke, fog, or thin paper curtains.",
+            "Requires two hands to operate effectively (one to aim, one to pull back launcher).",
+            "Office coworkers will eventually form a coalition and confiscate it from your desk."
       ],
-      "curatorVerdict": "A triumph of fluid dynamics. Ruffling someone's hair from 30 feet away with completely invisible air is endlessly satisfying.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 75,
-          "y": 55,
-          "label": "Elastic Recoil Membrane",
-          "detail": "High-strength flexible diaphragm that snaps forward to compress air through the conical barrel."
-        },
-        {
-          "id": "hs-2",
-          "x": 33,
-          "y": 10,
-          "label": "Flip-Up Pop-Up Targeting Sight",
-          "detail": "Clear optical reticle allowing accurate aiming at targets, paper cups, or unsuspecting friends."
-        },
-        {
-          "id": "hs-3",
-          "x": 48,
-          "y": 88,
-          "label": "Ergonomic Pistol Grip & Elastic Pull",
-          "detail": "Heavy-duty molded handle with purple elastic tether designed for rapid one-handed release."
-        }
+      curatorVerdict: "Pure mischievous physics. Blasting a paper cup off a colleague’s monitor from 30 feet away with an invisible gust of toroidal air never gets old.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "Toroidal Aerodynamic Venturi Nozzle",
+                  detail: "Calibrated aperture compressing air volume into a spinning vortex ring."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 65,
+                  label: "Elastic Diaphragm Membrane",
+                  detail: "High-rebound polymer sheet displacing air instantaneously on release."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 88,
+                  label: "Flip-Up Pop-Up Sight Reticle",
+                  detail: "Aiming crosshair for precision long-range vortex targeting."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 2,
-      "priceRange": "$95 — $125 USD",
-      "primaryChannels": [
-        "Amazon Science & Novelty Toys",
-        "Science Museum Stores"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: "$95 — $120 USD",
+      primaryChannels: [
+            "Amazon Scientific Toys",
+            "Specialty Toy Archives"
       ],
-      "searchKeywords": [
-        "Airzooka Air Vortex Cannon",
-        "Can You Imagine Airzooka",
-        "Handheld Air Blaster Launcher"
+      searchKeywords: [
+            "Airzooka Air Cannon Can You Imagine",
+            "Handheld Vortex Air Gun",
+            "Acoustic Air Vortex Launcher"
       ],
-      "antiFraudWarning": "Buy original Can You Imagine brand Airzooka for durable elastic cords and tear-resistant air bag material.",
-      "directOutbound": {
-        "label": "Inspect on Amazon Toy Archive",
-        "url": "https://www.amazon.com",
-        "sourceType": "Official Workshop"
+      antiFraudWarning: "Insist on original \"Can You Imagine\" branded Airzooka. Cheap dollar-store knockoffs tear their elastic diaphragms within hours.",
+      directOutbound: {
+            label: "Inspect on Amazon Toys",
+            url: "https://amazon.com",
+            sourceType: "Authorized Dealer"
       }
-    }
+}
   },
+
   {
-    "id": "anm-029",
-    "specimenCode": "ETSY-SKULL // #1-CERAMIC",
-    "title": "Hand-Sculpted Stoneware Ceramic Skull Vessel & Espresso Tumbler",
-    "category": "UNCANNY_DOMESTIC",
-    "curatorId": "cr-algo-05",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.3,
-    "priceValue": 128,
-    "platform": "Etsy",
-    "salesRank": 1,
-    "salesRankBadge": "#1 ARTISAN GOTHIC STONEWARE",
-    "scarcityBadge": "HAND-CARVED STUDIO POTTERY",
-    "heroImage": "/items/anm-029.jpg",
-    "gallery": [
-      "/items/anm-029.jpg"
-    ],
-    "tagline": "Stackable high-fired stoneware ceramic cup sculpted with expressive anatomical skull eye sockets, dark wash oxide glaze, and carved tooth details.",
-    "tags": [
-      "ETSY CRAFT",
-      "CERAMIC SKULL",
-      "STUDIO POTTERY",
-      "ESPRESSO TUMBLER",
-      "GOTHIC TABLEWARE"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Carefully wrapped in corrugated cardboard and butcher paper from the potter's studio, signed on the unglazed foot ring.",
-      "tactileFeedback": "Dense, substantial stoneware with a satin ivory glaze and deep black oxide carved eye sockets. Fits comfortably in the palm like a talisman.",
-      "honestSnags": [
-        "Each piece is individually wheel-thrown and hand-carved; subtle dimensional variations exist between cups.",
-        "Hand washing recommended to preserve the rich surface contrast of the dark oxide washes over years.",
-        "Smaller capacity (~180ml / 6oz); designed for double espressos, cortados, or ceremonial tea rather than giant lattes."
+    id: 'anm-029',
+    specimenCode: 'ETSY-SKULL-VESSEL // #1-POTTERY',
+    title: "Hand-Sculpted Stoneware Ceramic Skull Vessel & Espresso Tumbler",
+    category: 'ZINES_RELICS',
+    curatorId: 'cr-algo-05',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.4,
+    priceValue: 128,
+    platform: 'Etsy',
+    salesRank: 1,
+    salesRankBadge: '#1 STAR SELLER ARTISAN CERAMIC',
+    scarcityBadge: 'WOOD-FIRED STUDIO ONE-OFF',
+    heroImage: '/items/anm-029.jpg',
+    gallery: ["/items/anm-029.jpg"],
+    tagline: "Hand-thrown and sculpted unglazed stoneware drinking vessel shaped like an anatomically weathered cranium with ash glaze drippings.",
+    tags: ["ETSY #1","CERAMIC SKULL","WOOD FIRED","STUDIO POTTERY","MEMENTO MORI"],
+    fieldObservation: {
+      unboxingLog: "Heavy cardboard box stuffed with wood shavings, stamped pottery studio seal, and handwritten kiln firing notes.",
+      tactileFeedback: "Rough, earthy raw clay texture with smooth polished rim for drinking comfort. Fits weighted and grounded in the palm.",
+      honestSnags: [
+            "Hand-wash only; mechanical dishwashers will erode the subtle wood-ash mineral crystals over time.",
+            "Each vessel is unique; exact bone-white and charcoal ash color tones vary naturally from kiln wood placement.",
+            "Drinking your morning black espresso from a skull will prompt questions during Zoom calls."
       ],
-      "curatorVerdict": "Masterful ceramic sculpture disguised as daily drinkware. Holding a hot espresso in a handmade grinning skull is gothic luxury.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 62,
-          "y": 28,
-          "label": "Deep Carved Black Glaze Eye Sockets",
-          "detail": "Hand-carved facial cavities treated with high-contrast black underglaze wash."
-        },
-        {
-          "id": "hs-2",
-          "x": 55,
-          "y": 48,
-          "label": "Textured Stoneware Ceramic Body",
-          "detail": "Durable porcelain-stoneware blend fired to Cone 6 for food-safe everyday hot and cold beverage use."
-        },
-        {
-          "id": "hs-3",
-          "x": 55,
-          "y": 86,
-          "label": "Carved Dental Ridge & Stackable Base",
-          "detail": "Precision cutouts along the jawline allowing multiple cups to nest securely into each other."
-        }
+      curatorVerdict: "Raw, visceral earth craft. The contrast between rough cranium texture and velvety interior glaze makes every sip feel like a quiet ritual.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 35,
+                  label: "Sculpted Zygomatic Arch & Brow",
+                  detail: "Individually carved facial planes highlighting natural bone osteology."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 70,
+                  label: "Natural Wood-Ash Kiln Glaze",
+                  detail: "Fly-ash melt forming greenish-amber vitreous glassy rivers down cheekbones."
+            },
+            {
+                  id: "hs-3",
+                  x: 50,
+                  y: 92,
+                  label: "Beveled Weighted Stoneware Foot",
+                  detail: "Heavy base preventing tipping when filled with hot beverages or ink."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 3,
-      "priceRange": "$115 — $145 USD",
-      "primaryChannels": [
-        "Etsy Ceramic Artisan Boutiques",
-        "Independent Pottery Guilds"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: "$115 — $145 USD",
+      primaryChannels: [
+            "Etsy Studio Ceramics",
+            "Independent Pottery Guild"
       ],
-      "searchKeywords": [
-        "Ceramic Skull Mug Espresso Cup",
-        "Handmade Stoneware Skull Cup",
-        "Gothic Studio Pottery Tumbler"
+      searchKeywords: [
+            "Handmade Ceramic Skull Cup Mug",
+            "Wood Fired Stoneware Skull Vessel",
+            "Memento Mori Studio Ceramic Tumbler"
       ],
-      "antiFraudWarning": "Avoid mass-produced mold-cast slipware ceramic mugs. Verify studio wheel throwing and hand-carved socket details.",
-      "directOutbound": {
-        "label": "Source on Etsy Pottery Studio",
-        "url": "https://www.etsy.com",
-        "sourceType": "Artisan Studio"
+      antiFraudWarning: "Avoid slip-cast factory ceramic skulls with smooth painted enamel. Genuine studio pieces show hand-carved tool marks and kiln flashes.",
+      directOutbound: {
+            label: "Inspect on Etsy Artisan Vault",
+            url: "https://etsy.com",
+            sourceType: "Independent Artisan"
       }
-    }
+}
   },
+
   {
-    "id": "anm-030",
-    "specimenCode": "ALLEGRO-CRT // #1-OSCILLO",
-    "title": "Vintage Tektronix Laboratory Cathode Ray Tube Phosphor Oscilloscope Display",
-    "category": "ODD_DESK_TACTILE",
-    "curatorId": "cr-algo-01",
-    "dateLogged": "OCT 05, 2026",
-    "weirdnessScore": 9.4,
-    "priceValue": 320,
-    "platform": "Allegro",
-    "salesRank": 1,
-    "salesRankBadge": "#1 VINTAGE LABORATORY CRT",
-    "scarcityBadge": "P31 GREEN PHOSPHOR",
-    "heroImage": "/items/anm-030.jpg",
-    "gallery": [
-      "/items/anm-030.jpg"
-    ],
-    "tagline": "Decommissioned lab instrument featuring authentic green P31 phosphor CRT display with etched 8x10 centimeter division graticule screen.",
-    "tags": [
-      "ALLEGRO VINTAGE",
-      "TEKTRONIX CRT",
-      "PHOSPHOR SCREEN",
-      "OSCILLOSCOPE",
-      "LAB ELECTRONICS"
-    ],
-    "fieldObservation": {
-      "unboxingLog": "Secured in heavy industrial crate with foam corner blocking, grounded test leads, and factory schematic calibration printouts.",
-      "tactileFeedback": "Solid cast aluminum faceplate with corner retention bolts. The internal green phosphor coating glows with unmistakable retro laboratory warmth.",
-      "honestSnags": [
-        "Heft is substantial; vintage CRT laboratory instruments weigh upwards of 8 to 12 kilograms.",
-        "High internal anode voltage (15kV+); internal tube neck must never be opened while powered.",
-        "Pure analog deflection requires stable line frequency for zero jitter."
+    id: 'anm-030',
+    specimenCode: 'ALL-CRT-RADAR // #1-WARSAW',
+    title: "Vintage Tektronix Laboratory Cathode Ray Tube Phosphor Oscilloscope Display",
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-01',
+    dateLogged: 'OCT 06, 2026',
+    weirdnessScore: 9.8,
+    priceValue: 320,
+    platform: 'Allegro',
+    salesRank: 1,
+    salesRankBadge: '#1 SURPLUS LAB ELECTRONICS HIT',
+    scarcityBadge: 'P31 EMERALD PHOSPHOR CRT',
+    heroImage: '/items/anm-030.jpg',
+    gallery: ["/items/anm-030.jpg"],
+    tagline: "Decommissioned test bench oscilloscope CRT retrofitted into an active desktop vector audio visualizer glowing with green electron beams.",
+    tags: ["ALLEGRO #1","CRT DISPLAY","OSCILLOSCOPE","GREEN PHOSPHOR","LAB SURPLUS"],
+    fieldObservation: {
+      unboxingLog: "Packs in wood-reinforced flight crate with isolated low-voltage power supply, BNC-to-RCA stereo adapters, and focus alignment knob.",
+      tactileFeedback: "Curved thick leaded glass screen glowing with rich emerald phosphor. Turning stereo music on traces complex Lissajous spirals in real time.",
+      honestSnags: [
+            "Heavier than modern flat monitors; requires solid desk surface able to hold 4.5kg.",
+            "High-voltage internal flyback transformer creates subtle 15kHz electrical hum near the rear vent.",
+            "Must be kept away from strong unshielded speaker magnets to avoid color deflection distortion."
       ],
-      "curatorVerdict": "The holy grail of analog waveform observation. That distinctive green phosphor trail across the calibrated graticule is electronic art.",
-      "hotspots": [
-        {
-          "id": "hs-1",
-          "x": 50,
-          "y": 50,
-          "label": "P31 Medium-Persistence Green Phosphor",
-          "detail": "Vacuum electron-beam glass faceplate glowing in iconic emerald phosphor luminescence."
-        },
-        {
-          "id": "hs-2",
-          "x": 50,
-          "y": 20,
-          "label": "Precision 8x10 Division Metric Graticule",
-          "detail": "Internal illuminated parallax-free grid lines for calibrated voltage and timebase measurement."
-        },
-        {
-          "id": "hs-3",
-          "x": 10,
-          "y": 10,
-          "label": "Industrial Aluminum Bezel & Mounting Screws",
-          "detail": "Cast metal mounting frame designed for heavy-duty test bench instrument rack installations."
-        }
+      curatorVerdict: "The holy grail of analog visualizers. Electron beams painting vector geometry in real time makes modern 60Hz LCDs look lifeless and sluggish.",
+      hotspots: [
+            {
+                  id: "hs-1",
+                  x: 50,
+                  y: 50,
+                  label: "P31 Medium-Persistence Green Phosphor",
+                  detail: "Vacuum electron-beam glass faceplate glowing in iconic emerald phosphor luminescence."
+            },
+            {
+                  id: "hs-2",
+                  x: 50,
+                  y: 20,
+                  label: "Precision 8x10 Division Metric Graticule",
+                  detail: "Internal illuminated parallax-free grid lines for calibrated voltage and timebase measurement."
+            },
+            {
+                  id: "hs-3",
+                  x: 10,
+                  y: 10,
+                  label: "Industrial Aluminum Bezel & Mounting Screws",
+                  detail: "Cast metal mounting frame designed for heavy-duty test bench instrument rack installations."
+            }
       ]
-    },
-    "sourcingTelemetry": {
-      "huntDifficulty": 4,
-      "priceRange": "$290 — $360 USD",
-      "primaryChannels": [
-        "Allegro Industrial Electronics",
-        "European Surplus Tech Vaults"
+},
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: "$290 — $360 USD",
+      primaryChannels: [
+            "Allegro Industrial Electronics",
+            "European Surplus Tech Vaults"
       ],
-      "searchKeywords": [
-        "Tektronix Oscilloscope CRT Screen 475",
-        "Vintage Cathode Ray Tube Phosphor Display",
-        "Analog Lab Oscilloscope CRT"
+      searchKeywords: [
+            "Tektronix Oscilloscope CRT Screen 475",
+            "Vintage Cathode Ray Tube Phosphor Display",
+            "Analog Lab Oscilloscope CRT"
       ],
-      "antiFraudWarning": "Check that the vacuum tube has no neck fractures or phosphor burn-in spots before purchasing.",
-      "directOutbound": {
-        "label": "Examine on Allegro Surplus",
-        "url": "https://allegro.pl",
-        "sourceType": "Boutique Reseller"
+      antiFraudWarning: "Check that the vacuum tube has no neck fractures or phosphor burn-in spots before purchasing.",
+      directOutbound: {
+            label: "Examine on Allegro Surplus",
+            url: "https://allegro.pl",
+            sourceType: "Boutique Reseller"
       }
-    }
+}
   }
 ];
