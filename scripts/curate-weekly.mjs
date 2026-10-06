@@ -699,7 +699,7 @@ function main() {
   fs.writeFileSync(summaryFilePath, summaryMd, 'utf-8');
   console.log(`Summary written to: ${summaryFilePath}`);
 
-  // Write new items into items.ts by PREPENDING them at the front of ODDITY_ITEMS array (newest first)
+  // Replace ODDITY_ITEMS with the weekly Top 15 (maintaining strictly 15 specimens without duplication)
   const openBracketIndex = itemsFileContent.indexOf('export const ODDITY_ITEMS: OddityItem[] = [');
   if (openBracketIndex === -1) {
     console.error('Error: Could not locate "export const ODDITY_ITEMS: OddityItem[] = [" in items.ts');
@@ -733,15 +733,14 @@ function main() {
   const updatedContent = 
     itemsFileContent.slice(0, insertIndex) + 
     '\n\n  // =============================================================\n' +
-    `  // LATEST WEEKLY DROP: ${todayStr} (15 NEW SPECIMENS // 40% TIKTOK SHOP // >$100)\n` +
+    `  // LATEST WEEKLY DROP: ${todayStr} (TOP 15 VELOCITY SPECIMENS // 40% TIKTOK SHOP // >$100)\n` +
     '  // =============================================================\n' +
     itemsFormattedCode + 
-    ',\n' +
-    itemsFileContent.slice(insertIndex).trimStart();
+    '\n];\n';
 
   fs.writeFileSync(itemsFilePath, updatedContent, 'utf-8');
-  console.log(`\nSuccessfully appended 15 new items to: ${itemsFilePath}`);
-  console.log(`New total items count: ${idMatches.length + 15}`);
+  console.log(`\nSuccessfully updated catalog with 15 weekly items: ${itemsFilePath}`);
+  console.log(`Active catalog items count: ${newItems.length}`);
   console.log('Automated curation batch completed successfully!');
 }
 
