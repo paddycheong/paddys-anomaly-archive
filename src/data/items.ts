@@ -3353,41 +3353,52 @@ const BATCH_POOL_OCT_05: RawOdditySeed[] = [
   }
 ];
 
-const WEEKLY_ROTATION_POOLS: RawOdditySeed[][] = [
-  BATCH_POOL_OCT_12,
-  BATCH_POOL_OCT_19,
-  BATCH_POOL_OCT_05,
+const SCHEDULED_WEEKLY_DROPS: { unlockUtcMs: number; dateLogged: string; pool: RawOdditySeed[] }[] = [
+  {
+    unlockUtcMs: Date.UTC(2026, 9, 5, 3, 0, 0), // Monday, Oct 05, 2026 12:00 PM JST
+    dateLogged: 'OCT 05, 2026',
+    pool: BATCH_POOL_OCT_05,
+  },
+  {
+    unlockUtcMs: Date.UTC(2026, 9, 12, 3, 0, 0), // Monday, Oct 12, 2026 12:00 PM JST
+    dateLogged: 'OCT 12, 2026',
+    pool: BATCH_POOL_OCT_12,
+  },
+  {
+    unlockUtcMs: Date.UTC(2026, 9, 19, 3, 0, 0), // Monday, Oct 19, 2026 12:00 PM JST
+    dateLogged: 'OCT 19, 2026',
+    pool: BATCH_POOL_OCT_19,
+  },
 ];
 
-const MONTHS_SHORT = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
-
 /**
- * Resolves the active 15-item weekly catalog anchored to Monday 12:00 PM Tokyo Time (03:00 UTC).
- * Guarantees zero-second delay on Monday 12:00 PM JST even before background CI jobs finish.
+ * Resolves the cumulative weekly archive anchored to Monday 12:00 PM Tokyo Time (03:00 UTC).
+ * Newest weekly drop (15 items) is placed at the VERY FRONT, while preserving previous weeks'
+ * items below in strict newest-to-oldest chronological order with zero duplicate IDs.
  */
 export function getActiveWeeklyCatalog(nowMs: number = Date.now()): OddityItem[] {
-  // Anchor: Monday, Oct 12, 2026 at 12:00:00 PM Tokyo Time (03:00:00 UTC)
-  const oct12JstNoonUtcMs = Date.UTC(2026, 9, 12, 3, 0, 0);
-  const oneWeekMs = 7 * 24 * 60 * 60 * 1000;
+  const unlockedDrops = SCHEDULED_WEEKLY_DROPS
+    .filter((drop) => nowMs >= drop.unlockUtcMs)
+    .sort((a, b) => b.unlockUtcMs - a.unlockUtcMs); // Newest Monday drop first
 
-  if (nowMs >= oct12JstNoonUtcMs) {
-    const weeksElapsed = Math.floor((nowMs - oct12JstNoonUtcMs) / oneWeekMs);
-    const pool = WEEKLY_ROTATION_POOLS[weeksElapsed % WEEKLY_ROTATION_POOLS.length];
-    const dropMondayUtc = new Date(oct12JstNoonUtcMs + weeksElapsed * oneWeekMs);
-    const dateLogged = MONTHS_SHORT[dropMondayUtc.getUTCMonth()] + ' ' + String(dropMondayUtc.getUTCDate()).padStart(2, '0') + ', ' + dropMondayUtc.getUTCFullYear();
+  const dropsToInclude = unlockedDrops.length > 0 ? unlockedDrops : [SCHEDULED_WEEKLY_DROPS[0]];
+  const seenIds = new Set<string>();
+  const archive: OddityItem[] = [];
 
-    return pool.map((item) => ({
-      ...item,
-      dateLogged,
-      gallery: [item.heroImage],
-    }));
+  for (const drop of dropsToInclude) {
+    for (const item of drop.pool) {
+      if (!seenIds.has(item.id)) {
+        seenIds.add(item.id);
+        archive.push({
+          ...item,
+          dateLogged: drop.dateLogged,
+          gallery: [item.heroImage],
+        });
+      }
+    }
   }
 
-  return BATCH_POOL_OCT_05.map((item) => ({
-    ...item,
-    dateLogged: 'OCT 05, 2026',
-    gallery: [item.heroImage],
-  }));
+  return archive;
 }
 
 export const ODDITY_ITEMS: OddityItem[] = getActiveWeeklyCatalog();
