@@ -1,26 +1,26 @@
-# 📦 Weekly Curation Drop: OCT 26, 2026
+# 📦 Weekly Curation Drop: NOV 02, 2026
 
 **Curation Cadence**: Every Monday at 12:00 PM Tokyo Time (JST / 03:00 UTC)
 **Sourcing Window**: Global Previous Week (Monday to Sunday) Sales Velocity Top 15
-**Batch Summary**: 15 New Artifacts | **40% TikTok Shop** (6/15) | **Price Spectrum**: $109.00 — $320.00 USD (All > $100)
+**Batch Summary**: 15 New Artifacts | **40% TikTok Shop** (6/15) | **Price Spectrum**: $118.00 — $349.00 USD (All > $100)
 
 | # | Code | Title | Platform | Price | Category | Curator |
 |---|---|---|---|---|---|---|
-| 1 | `TIKTOK-PLASMA // #1-KINETIC` | **Resonant Audio Plasma Column Arc Visualizer with Wireless Coil** | TikTok Shop | **$149.00** | `CYBER_HARDWARE` | Chloe Lin |
-| 2 | `TIKTOK-BIOFLOW // #1-MICROBE` | **Bioluminescent Dinoflagellate Living Marine Micro-Habitat Orb** | TikTok Shop | **$124.00** | `UNCANNY_DOMESTIC` | Chloe Lin |
-| 3 | `TIKTOK-ROBOTARM // #1-GEEK` | **Elephant Robotics myCobot 280 6-Axis Collaborative Desktop Robotic Arm** | TikTok Shop | **$245.00** | `CYBER_HARDWARE` | Darius Novak |
-| 4 | `TIKTOK-NIXIE-WATCH // #1-CYBER` | **Cyberpunk Dual VFD Vacuum Fluorescent Tube Wrist Chronograph** | TikTok Shop | **$185.00** | `WEARABLE_ANOMALIES` | Darius Novak |
-| 5 | `TIKTOK-LEVIT-MOON // #1-ASTRONOMY` | **Magnetic Levitating 3D Relief Moon Lamp with Solid Wood Base** | TikTok Shop | **$139.00** | `UNCANNY_DOMESTIC` | Chloe Lin |
-| 6 | `TIKTOK-CYBER-VISOR // #1-LED` | **Luminous Cyberpunk LED Visor Glasses with 7 Dynamic Color Modes** | TikTok Shop | **$118.00** | `WEARABLE_ANOMALIES` | Darius Novak |
-| 7 | `AMZ-TUBE-RADIO // #1-VINTAGE` | **Vintage Wooden AM/FM/SW Shortwave Radio & Bluetooth Acoustic Speaker** | Amazon | **$159.00** | `CYBER_HARDWARE` | Felix Vance |
-| 8 | `AMZ-SAND-TABLE // #1-KINETIC` | **Grounded Labs Oasis Mini Kinetic Sand Art Desk Table** | Amazon | **$199.00** | `ODD_DESK_TACTILE` | Chloe Lin |
-| 9 | `ALI-BIOMECH-HELM // #1-PROP` | **Cyberpunk Mecha Tactical Half-Face Respirator Mask with Green LED Accents** | AliExpress | **$145.00** | `WEARABLE_ANOMALIES` | Darius Novak |
-| 10 | `ETSY-TAXIDERMY-BAT // #1-CURIO` | **Authentic Preserved Bat Taxidermy Specimen in Wooden Shadow Box** | Etsy | **$165.00** | `ZINES_RELICS` | Maeve O'Connor |
-| 11 | `RAK-GAKKEN-SYNTH // #1-TOKYO` | **Gakken SX-150 Mark II Stylus Ribbon Analog Synthesizer** | Rakuten | **$175.00** | `CYBER_HARDWARE` | Sora Takahashi |
-| 12 | `MERC-FERRO-HUB // #1-FLUIDIC` | **Dancing Ferrofluid Sound Visualizer Desktop Bluetooth Speaker** | Mercari | **$169.00** | `ODD_DESK_TACTILE` | Chloe Lin |
-| 13 | `AMZ-VORTEX-CANNON // #1-AERO` | **Can You Imagine Airzooka Handheld Air Vortex Blast Cannon** | Amazon | **$109.00** | `ODD_DESK_TACTILE` | Chloe Lin |
-| 14 | `ETSY-SKULL-VESSEL // #1-POTTERY` | **Hand-Sculpted Stoneware Ceramic Skull Vessel & Espresso Tumbler** | Etsy | **$128.00** | `ZINES_RELICS` | Maeve O'Connor |
-| 15 | `ALL-CRT-RADAR // #1-WARSAW` | **Vintage Tektronix Laboratory Cathode Ray Tube Phosphor Oscilloscope Display** | Allegro | **$320.00** | `CYBER_HARDWARE` | Felix Vance |
+| 1 | `TIKTOK-SPIN-TOP // #1-EDC` | **Solid Lathed Brass & Tungsten Carbide Precision Micro Spinning Top** | TikTok Shop | **$118.00** | `ODD_DESK_TACTILE` | Chloe Lin |
+| 2 | `TIKTOK-VU-METER // #1-AUDIO` | **Dual Analog Ballistic Needle Audio Level VU Meter Backlit Display** | TikTok Shop | **$139.00** | `CYBER_HARDWARE` | Chloe Lin |
+| 3 | `TIKTOK-STEAMPUNK-GOGGLES // #1-PROP` | **Vintage Steampunk Brass Goggles with Dual Optical Magnifier Loupes** | TikTok Shop | **$128.00** | `WEARABLE_ANOMALIES` | Darius Novak |
+| 4 | `TIKTOK-LUMEN-MUSHROOM // #1-BIO` | **Living Bioluminescent Mushroom Culture in Glass Habitat Flask** | TikTok Shop | **$149.00** | `UNCANNY_DOMESTIC` | Chloe Lin |
+| 5 | `TIKTOK-BRASS-CALENDAR // #1-CHRONO` | **Solid Engraved Brass 50-Year Rotational Disk Perpetual Calendar** | TikTok Shop | **$135.00** | `ODD_DESK_TACTILE` | Felix Vance |
+| 6 | `TIKTOK-ARMOR-GAUNTLET // #1-STEEL` | **Articulated 16-Gauge Gothic Steel Medieval Armor Gauntlet Pair** | TikTok Shop | **$188.00** | `WEARABLE_ANOMALIES` | Darius Novak |
+| 7 | `AMZ-ARTURIA-FREAK // #1-SYNTH` | **Arturia MicroFreak Algorithmic Hybrid Synthesizer with Touch Plate** | Amazon | **$349.00** | `CYBER_HARDWARE` | Sora Takahashi |
+| 8 | `AMZ-DREMEL-TOOL // #1-MAKER` | **Dremel 4300 Variable Speed Rotary Multi-Tool Kit with Flex Shaft** | Amazon | **$129.00** | `CYBER_HARDWARE` | Darius Novak |
+| 9 | `ETSY-BRONZE-SKULL // #1-CAST` | **Lost-Wax Cast Solid Bronze Memento Mori Anatomical Skull Paperweight** | Etsy | **$142.00** | `ZINES_RELICS` | Maeve O'Connor |
+| 10 | `ALI-BIONIC-ROBODOG // #1-AI` | **Autonomous Quadruped Bionic Robotic Dog Kit with AI Vision Camera** | AliExpress | **$249.00** | `CYBER_HARDWARE` | Darius Novak |
+| 11 | `MERC-SONY-WALKMAN // #1-TOKYO` | **1980s Vintage Sony Walkman Stereo Cassette Player Metallic Edition** | Mercari | **$215.00** | `CYBER_HARDWARE` | Sora Takahashi |
+| 12 | `RAK-MACRO-PAD // #1-MECH` | **Akihabara Custom CNC Aluminum Mechanical Macropad with Rotary Knob** | Rakuten | **$124.00** | `CYBER_HARDWARE` | Sora Takahashi |
+| 13 | `ETSY-AMBER-FOSSIL // #1-CRETACEOUS` | **Authentic Cretaceous Baltic Amber Specimen with Fossilized Insect Inclusions** | Etsy | **$185.00** | `ZINES_RELICS` | Maeve O'Connor |
+| 14 | `BB-MARSHALL-AUDIO // #1-SOUND` | **Marshall Emberton II Portable Waterproof Bluetooth Stereo Speaker** | Best Buy | **$169.99** | `UNCANNY_DOMESTIC` | Felix Vance |
+| 15 | `ALL-NIXIE-IN14 // #1-WARSAW` | **Decommissioned Soviet IN-14 Cold-Cathode Nixie Tube Desktop Chronometer** | Allegro | **$265.00** | `CYBER_HARDWARE` | Felix Vance |
 
 ### ✅ Automated Curation Verification Checklist
 - [x] Sourced strictly from Global Previous Week (Monday to Sunday) Sales Velocity Top 15 candidates
