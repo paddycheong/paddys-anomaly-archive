@@ -3508,6 +3508,598 @@ export const BATCH_NOV_02 = [
 ];
 
 
+// ============================================================================
+// BATCH 6: NOV 09, 2026 (15 Specimens // 40% TikTok Shop // All > $100)
+// ============================================================================
+export const BATCH_NOV_09 = [
+  {
+    id: 'anm-076',
+    specimenCode: 'TIKTOK-LEVIT-GLOBE // #1-MAGNETIC',
+    title: 'Magnetic Levitating C-Frame Rotating Constellation Earth Globe',
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    weirdnessScore: 9.3,
+    priceValue: 122.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL DESK ORBIT (240K+ SOLD)',
+    scarcityBadge: 'ELECTROMAGNETIC SPECIMEN',
+    heroImage: '/items/anm-076.jpg',
+    tagline: 'Precision active electromagnetic field suspends a detailed geographical globe mid-air with near-frictionless 360-degree rotation.',
+    tags: ['TIKTOK SHOP 40%', 'MAGNETIC LEVITATION', 'ELECTROMAGNETIC FIELD', 'DESK KINETIC', 'LED HALO'],
+    fieldObservation: {
+      unboxingLog: 'Arrives in high-density foam with the C-shaped curved arm base, calibrated suspension spacer rod, and 12V 2A switching adapter.',
+      tactileFeedback: 'Slight magnetic resistance when positioning the sphere into the null-point; once captured, it spins silently with zero mechanical drag.',
+      honestSnags: [
+        'If power cuts abruptly, the globe drops or clamps instantly to the upper electromagnet with a sharp audible click.',
+        'Requires keeping at least 30cm away from mechanical automatic wristwatches and magnetic stripe cards.',
+        'Initial alignment requires a steady hand using the included acrylic alignment spacer tool.'
+      ],
+      curatorVerdict: 'Defying gravity on an office desk never ceases to captivate. The subtle LED rim lighting turns it into a nocturnal planetary beacon.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 18, label: 'Active Solenoid Electromagnet Array', detail: 'High-frequency PWM-driven electromagnetic coil modulating magnetic flux 1,000 times per second.' },
+        { id: 'hs-2', x: 50, y: 50, label: 'Neodymium Core Floating Sphere', detail: 'Precision-balanced terrestrial globe housing permanent rare-earth magnets sealed in durable ABS.' },
+        { id: 'hs-3', x: 28, y: 82, label: 'Curved C-Frame LED Ambient Arch', detail: 'Matte black structural cantilever armature with integrated soft-diffusion LED rim lighting.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: '$110 — $135 USD',
+      primaryChannels: ['TikTok Shop (Search "Magnetic Floating Globe")', 'Passfeed Gadget Feed'],
+      searchKeywords: ['Magnetic Levitation C Shape Globe', 'Electronic Floating Earth Lamp', 'Anti Gravity Rotating Desk Globe'],
+      antiFraudWarning: 'Avoid passive toy versions suspended by nylon filament. Ensure it uses active electromagnetic feedback with Hall sensors.',
+      directOutbound: { label: 'Inspect on TikTok Shop Maker Feed', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-077',
+    specimenCode: 'TIKTOK-CRYPTO-SEED // #1-SECURITY',
+    title: 'Indestructible Solid Grade 5 Titanium Mnemonic Crypto Seed Phrase Cold Storage Cassette',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-03',
+    weirdnessScore: 9.1,
+    priceValue: 148.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 HARDCORE SECURITY (85K+ SOLD)',
+    scarcityBadge: 'TITANIUM VAULT ARTIFACT',
+    heroImage: '/items/anm-077.jpg',
+    tagline: 'Machined aerospace Grade 5 titanium plates rated for 3,000°F fire resistance and ocean submersion, locking 24-word recovery seeds for eternity.',
+    tags: ['TIKTOK SHOP 40%', 'TITANIUM GRADE 5', 'CRYPTO SECURITY', 'FIREPROOF 3000F', 'OFFLINE COLD STORAGE'],
+    fieldObservation: {
+      unboxingLog: 'Heavy industrial matte black cardboard box containing dual stamped titanium plates, center punch tool, and tamper-evident security seals.',
+      tactileFeedback: 'Dense, cold, and indestructible. The surface features subtle CNC bead-blasting and engraved laser coordinate grids.',
+      honestSnags: [
+        'Center punch strikes require a solid concrete workbench or heavy metal block underneath to leave crisp indentations.',
+        'Irreversible: punching a wrong character dot requires using one of the spare backup letter cells.',
+        'Weighs over 450 grams; noticeably hefty in a pocket or travel safe.'
+      ],
+      curatorVerdict: 'Digital sovereignty made visceral. Stamping cryptographic phrases into titanium with hammer blows feels like forging permanent ancient runes.',
+      hotspots: [
+        { id: 'hs-1', x: 42, y: 30, label: 'BIP39 Laser-Engraved Alphabet Grid', detail: 'Standardized 4-letter truncation matrix covering all 2,048 BIP39 wordlist permutations.' },
+        { id: 'hs-2', x: 50, y: 65, label: 'Grade 5 Ti-6Al-4V Solid Core Slab', detail: 'Melting point exceeding 1,660°C (3,020°F); completely resistant to acid, floodwater, and house fires.' },
+        { id: 'hs-3', x: 82, y: 85, label: 'Hex-Bolt Padlock Latching Corner', detail: 'Recessed security fastener hole accepting standard anti-tamper padlocks and numbered steel wire seals.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: '$135 — $165 USD',
+      primaryChannels: ['TikTok Shop (Search "Titanium Crypto Cold Plate")', 'Crypto Steel Security Feeds'],
+      searchKeywords: ['Titanium Seed Phrase Backup Plate', 'BIP39 Metal Crypto Wallet Cassette', 'Fireproof Waterproof Recovery Phrase Vault'],
+      antiFraudWarning: 'Beware of cheap stamped aluminum lookalikes that melt at 660°C. Insist on authentic Grade 5 titanium with metallurgical certs.',
+      directOutbound: { label: 'Inspect on TikTok Shop Security Vault', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-078',
+    specimenCode: 'TIKTOK-TESLA-LIGHTER // #1-PLASMA',
+    title: 'Heavy Machined Brass Dual-Arc Plasma Beam Rechargeable EDC Pocket Lighter',
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    weirdnessScore: 9.0,
+    priceValue: 115.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL EDC IGNITION (170K+ SOLD)',
+    scarcityBadge: 'HIGH ENERGY ARC SPECIMEN',
+    heroImage: '/items/anm-078.jpg',
+    tagline: 'High-voltage solid-state plasma arc lighter lathed from solid unlacquered cartridge brass that patinas uniquely with daily handling.',
+    tags: ['TIKTOK SHOP 40%', 'SOLID BRASS', 'DUAL PLASMA ARC', 'WINDPROOF IGNITION', 'EDC GEAR'],
+    fieldObservation: {
+      unboxingLog: 'Presents in a slide-out kraft gift tin with a braided Type-C charging wire and mini brass polish swatch.',
+      tactileFeedback: 'Solid brass weight in the hand (180g). The flip-cap snaps open with a resounding metallic ring, and the arc hums softly.',
+      honestSnags: [
+        'Produces a quiet, high-pitched electrical whine while firing the 20,000V cross arcs.',
+        'Unlacquered raw brass will naturally oxidize and darken within weeks of finger oil exposure.',
+        'Battery capacity lasts roughly 60-80 ignitions before needing a 30-minute USB top-off.'
+      ],
+      curatorVerdict: 'A flameless lightning storm that fits inside your fifth jeans pocket. Wind completely fails to extinguish these crossed ionized arcs.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 22, label: 'Ceramic Insulator Arc Crosshead', detail: 'High-temp refractory ceramic housing four tungsten electrode poles forming an X-pattern plasma intersection.' },
+        { id: 'hs-2', x: 50, y: 55, label: 'Solid Lathed Raw Brass Chassis', detail: 'Machined from single billet 70/30 brass alloy with knurled grip bands and mechanical hinge.' },
+        { id: 'hs-3', x: 50, y: 88, label: 'USB-C Charging Base & LED Fuel Ring', detail: 'Recessed modern Type-C port surrounded by four micro sapphire-blue battery capacity indicator LEDs.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: '$105 — $125 USD',
+      primaryChannels: ['TikTok Shop (Search "Brass Dual Arc Plasma Lighter")', 'EDC Maker Showcases'],
+      searchKeywords: ['Solid Brass Plasma Beam Lighter', 'Dual Arc Windproof Electric Igniter', 'Heavy EDC Rechargeable Tesla Lighter'],
+      antiFraudWarning: 'Avoid zinc alloy models with fake brass plating that peel. Verify genuine solid machined brass via weight specs (>170g).',
+      directOutbound: { label: 'Inspect on TikTok Shop EDC Showcase', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-079',
+    specimenCode: 'TIKTOK-BIOLUM-PYRAMID // #1-BIO',
+    title: 'Pyramidal Hand-Blown Glass Living Bioluminescent Microalgae Biome',
+    category: 'UNCANNY_DOMESTIC',
+    curatorId: 'cr-algo-02',
+    weirdnessScore: 9.7,
+    priceValue: 138.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL LIVING LAB (145K+ SOLD)',
+    scarcityBadge: 'LIVING MARINE ECOSYSTEM',
+    heroImage: '/items/anm-079.jpg',
+    tagline: 'Sacred geometry pyramidal glass terrarium housing photosynthetic Pyrocystis dinoflagellates that ignite in bioluminescent cold cyan fire.',
+    tags: ['TIKTOK SHOP 40%', 'LIVING CULTURE', 'BIOLUMINESCENCE', 'PYRAMID GLASS', 'CIRCADIAN ECOSYSTEM'],
+    fieldObservation: {
+      unboxingLog: 'Arrives in custom thermal-insulated styrofoam casing with nutrient broth flask and light-tight dark transport sleeve.',
+      tactileFeedback: 'Smooth optical-clarity borosilicate glass edges. Gently swirling the pyramid in darkness unleashes a cascade of sparkling cyan light.',
+      honestSnags: [
+        'Strictly light-cycle sensitive; demands roughly 12 hours of ambient room light followed by 12 hours of total darkness.',
+        'Must be fed fresh saline nutrient solution every 4 to 6 months to maintain high microbial cell density.',
+        'Light intensity dims if agitated continuously for more than 5 minutes as luciferase reserves deplete temporarily.'
+      ],
+      curatorVerdict: 'Living oceanic alchemy trapped inside an Egyptian pyramid. Shaking it before bed provides a deeply grounding communion with ancient biological light.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 15, label: 'Precision Ground Glass Stopper Apex', detail: 'Hermetic ground-glass taper fitting allowing gas exchange while preventing airborne microbial contamination.' },
+        { id: 'hs-2', x: 48, y: 58, label: 'Dynamic Bioluminescent Broth Culture', detail: 'Dense suspension of marine Pyrocystis fusiformis single-celled algae emitting 470nm cyan photons under fluid shear.' },
+        { id: 'hs-3', x: 50, y: 88, label: 'Beveled Borosilicate Pyramid Base', detail: 'Solid weighted base designed to sit stably on wooden nightstands without scratching fine finishes.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: '$125 — $155 USD',
+      primaryChannels: ['TikTok Shop (Search "Bioluminescent Glass Pyramid")', 'Bio-Design Living Labs'],
+      searchKeywords: ['Living Bioluminescent Algae Pyramid', 'Pyrocystis Fusiformis Terrarium Flask', 'Glowing Microbe Marine Bio Lamp'],
+      antiFraudWarning: 'Watch out for plastic novelty globes with glow-in-the-dark paint. Genuine specimens contain live liquid broth that responds to physical agitation.',
+      directOutbound: { label: 'Inspect on TikTok Shop Maker Feed', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-080',
+    specimenCode: 'TIKTOK-CYBER-PUNK-WATCH // #1-WRIST',
+    title: 'OLED Cyberpunk Industrial Armored Steel Skeleton Digital Wristwatch',
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-03',
+    weirdnessScore: 9.2,
+    priceValue: 175.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL CYBER WEARABLE (95K+ SOLD)',
+    scarcityBadge: 'ARMORED TIMEPIECE',
+    heroImage: '/items/anm-080.jpg',
+    tagline: 'Brutalist angular 316L stainless steel wristwatch featuring dual customizable monochrome OLED displays and exposed industrial micro-screws.',
+    tags: ['TIKTOK SHOP 40%', 'CYBERPUNK WATCH', 'OLED DISPLAY', '316L STEEL', 'ARMORED CASE'],
+    fieldObservation: {
+      unboxingLog: 'Ships in an olive-drab tactical transit case with hex adjustment tools, spare fluoroelastomer strap, and magnetic USB pogo charger.',
+      tactileFeedback: 'Substantial, chiseled steel heft on the wrist. Mechanical tactile side buttons click with firm haptic snap.',
+      honestSnags: [
+        'Angular chassis is relatively thick (14.5mm); will not easily slide under tight formal dress shirt cuffs.',
+        'High-brightness OLED display requires charging roughly every 7 to 10 days with regular tilt-to-wake usage.',
+        'The industrial look attracts non-stop questions and glances in public environments.'
+      ],
+      curatorVerdict: 'Looks like it was stripped from the wrist of an Akira combat motorcyclist. The ultra-sharp OLED numbers punch through direct sunlight with ease.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 38, label: 'Dual Monochrome Graphic OLED Screen', detail: 'High-contrast 128x64 pixel emerald green / ice blue display rendering retro digital telemetry fonts.' },
+        { id: 'hs-2', x: 22, y: 55, label: '316L CNC Sandblasted Steel Bezel', detail: 'Multi-faceted chamfered stainless steel armor housing with IP68 water and shock resistance.' },
+        { id: 'hs-3', x: 78, y: 68, label: 'Machined Knurled Tactile Pushers', detail: 'Sealed stainless steel micro-switches cycling between stopwatch, binary clock, and atmospheric sensor readouts.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: '$160 — $195 USD',
+      primaryChannels: ['TikTok Shop (Search "Armored Cyberpunk Watch")', 'Indie Micro-Brand Timepiece Feed'],
+      searchKeywords: ['Cyberpunk OLED Wristwatch Steel', 'Futuristic Industrial Digital Watch', 'Tactical Mecha Skeleton Watch'],
+      antiFraudWarning: 'Avoid cheap alloy plastic imitations with low-resolution color TFT panels. True models use real 316L steel and high-contrast monochrome OLED.',
+      directOutbound: { label: 'Inspect on TikTok Shop Wearables', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-081',
+    specimenCode: 'TIKTOK-FIBER-WHIP // #1-LIGHT',
+    title: 'Professional 360-Degree Pixel Flow Dancing Space Fiber Optic Whip',
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-03',
+    weirdnessScore: 9.3,
+    priceValue: 129.00,
+    platform: 'TikTok Shop',
+    salesRank: 1,
+    salesRankBadge: '#1 FLOW LIGHTING WEARABLE (110K+ SOLD)',
+    scarcityBadge: 'KINETIC LIGHT SPECTACLE',
+    heroImage: '/items/anm-081.jpg',
+    tagline: 'Heavy-duty aircraft aluminum handle driving 130 end-glow optical fibers with smooth ball-bearing rotation and 40 programmed chromatic color modes.',
+    tags: ['TIKTOK SHOP 40%', 'FIBER OPTIC WHIP', 'FLOW ARTS', 'PIXEL DANCING', 'CNC ALUMINUM HANDLE'],
+    fieldObservation: {
+      unboxingLog: 'Packaged in a cylindrical zip travel pouch with bundle wrap, rechargeable 18650 cell, USB smart charger, and silicone fiber lubricant.',
+      tactileFeedback: 'Weighted aluminum knurled hilt feels balanced for finger spins. The 6-foot fibers glide smoothly without knotting.',
+      honestSnags: [
+        'Fibers will gradually shed individual strands if whipped repeatedly against abrasive concrete or brick surfaces.',
+        'Requires periodic application of silicone spray to maintain tangle-free silk-like fluidity during complex wraps.',
+        'Extremely bright in pitch-black rooms; can disorient bystanders if swung too close.'
+      ],
+      curatorVerdict: 'Transforms kinetic human movement into liquid neon trails. In long-exposure photography, it paints dazzling dimensional light ribbons.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 20, label: 'Optical Powerhouse LED Core Engine', detail: 'High-CRI 3W RGB Cree LED emitting concentrated optical flux directly into fiber bundle ferrule.' },
+        { id: 'hs-2', x: 50, y: 50, label: '360° Stainless Fluid Bearing Swivel', detail: 'Zero-resistance ball-bearing collar allowing the whip to rotate infinitely without twisting inner wiring.' },
+        { id: 'hs-3', x: 50, y: 85, label: '130 Tapered End-Glow PMMA Fibers', detail: 'Graduated lengths from 1ft to 6ft, side-sparkled and end-polished for multi-point starry light dispersion.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: '$118 — $140 USD',
+      primaryChannels: ['TikTok Shop (Search "Fiber Optic Flow Whip")', 'Flow Arts Performance Showcases'],
+      searchKeywords: ['Fiber Optic Space Whip 360 Ball Bearing', 'Pixel Flow Dancing Light Whip', 'Rechargeable LED Fiber Performance Whip'],
+      antiFraudWarning: 'Avoid models with fixed heads that lack ball bearings; they will knot and snap fibers within minutes of use.',
+      directOutbound: { label: 'Inspect on TikTok Shop Performance Feed', url: 'https://shop.tiktok.com', sourceType: 'Official Workshop' }
+    }
+  },
+  {
+    id: 'anm-082',
+    specimenCode: 'AMZ-KORG-NTS1 // #1-SYNTH',
+    title: 'Korg Nu:Tekt NTS-1 Digital Programmable DIY Ribbon Synthesizer Kit',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-04',
+    weirdnessScore: 9.4,
+    priceValue: 139.99,
+    platform: 'Amazon',
+    salesRank: 1,
+    salesRankBadge: '#1 BEST SELLER DIY SYNTH',
+    scarcityBadge: 'OPEN MULTI-ENGINE',
+    heroImage: '/items/anm-082.jpg',
+    tagline: 'Pocket-sized open-architecture digital synthesizer with ribbon controller, custom user oscillators, and studio-grade stereo reverb and delay.',
+    tags: ['AMAZON #1', 'KORG NTS-1', 'RIBBON SYNTH', 'OPEN PLATFORM', 'DIY HARDWARE'],
+    fieldObservation: {
+      unboxingLog: 'Delivered as a complete solder-free snap-together kit including printed circuit boards, ribbon keyboard, hardware panels, and screwdriver.',
+      tactileFeedback: 'Ultra-lightweight exposed PCB charm. Sliding fingers across the ribbon creates fluid pitch sweeps, and pots have a smooth damping curve.',
+      honestSnags: [
+        'Ribbon pitch keyboard is small; precision melodic solos require practice or plugging in an external MIDI keyboard.',
+        'Micro-USB power port is slightly delicate; requires gentle cable insertion to prevent fatigue on solder joints.',
+        '3.5mm audio output requires a clean USB power source to eliminate ground-loop hum in audio monitors.'
+      ],
+      curatorVerdict: 'A sonic monster masquerading as a mini DIY gadget. Loading third-party custom oscillators gives it the audio fidelity of a $1,500 flagship synth.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 25, label: 'Open-SDK Multi-Engine DSP Chip', detail: 'Allows loading custom C/C++ oscillators and spatial modulation effects developed by the worldwide synth community.' },
+        { id: 'hs-2', x: 30, y: 55, label: 'Stereo Multi-FX Processor Pots', detail: 'Dedicated encoder knobs tweaking chorus, ensemble, tape delay, and cathedral hall reverb algorithms.' },
+        { id: 'hs-3', x: 50, y: 88, label: 'Continuous Pitch Ribbon Strip', detail: 'Capacitive touch-strip keyboard supporting monophonic play, glissando slides, and built-in arpeggiator patterns.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 1,
+      priceRange: '$129 — $150 USD',
+      primaryChannels: ['Amazon Pro Audio', 'Sweetwater Sound', 'Korg Official Dealers'],
+      searchKeywords: ['Korg NTS-1 Digital Synthesizer Kit', 'Nu Tekt DIY Ribbon Synth', 'Korg Programmable Multi Engine Synth'],
+      antiFraudWarning: 'Ensure kit includes all original ribbon cable assemblies and genuine Korg authorization slip.',
+      directOutbound: { label: 'View on Amazon Pro Audio', url: 'https://www.amazon.com', sourceType: 'Authorized Dealer' }
+    }
+  },
+  {
+    id: 'anm-083',
+    specimenCode: 'AMZ-SAND-PENDULUM // #1-KINETIC',
+    title: 'Solid Wood & Brass Desktop Gravity Friction Kinetic Sand Pendulum',
+    category: 'ODD_DESK_TACTILE',
+    curatorId: 'cr-algo-02',
+    weirdnessScore: 9.0,
+    priceValue: 112.00,
+    platform: 'Amazon',
+    salesRank: 1,
+    salesRankBadge: '#1 VIRAL GRAVITY ART',
+    scarcityBadge: 'NATURAL PHYSICS RELIC',
+    heroImage: '/items/anm-083.jpg',
+    tagline: 'Precision pointed brass bob swinging on twin gimbal cords, tracing intricate Lissajous geometric wave patterns in fine volcanic black sand.',
+    tags: ['AMAZON #1', 'SAND PENDULUM', 'LISSAJOUS HARMONICS', 'SOLID WOOD', 'KINETIC PHYSICS'],
+    fieldObservation: {
+      unboxingLog: 'Arrives in flat-pack box with hardwood circular tray, threaded support mast, pointed brass stylus bob, and bag of fine sifted quartz sand.',
+      tactileFeedback: 'Substantial brass bob weight (250g) swinging in total silence. The tip whispers gently as it displaces grains of sand.',
+      honestSnags: [
+        'Must be set on a completely level, vibration-free desk to prevent asymmetrical distortion of elliptical harmonic curves.',
+        'Requires carefully leveling the sand bed with the included acrylic scraper before launching a new swing.',
+        'Direct airflow from ceiling fans or desk air conditioners will subtly drift the pendulum trajectory.'
+      ],
+      curatorVerdict: 'Visualizing invisible orbital gravity equations on a coffee table. Watching harmonic resonance decay into micro-mandalas is endlessly soothing.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 15, label: 'Dual-Axis Brass Gimbal Suspension', detail: 'Tuned suspension cord linkage creating compound harmonic ratios between X and Y axes.' },
+        { id: 'hs-2', x: 50, y: 55, label: 'Solid Turned Brass Stylus Weight', detail: 'Aerodynamic polished brass weight with needle-sharp lower stylus tip minimizing friction drag.' },
+        { id: 'hs-3', x: 50, y: 90, label: 'Turned Beechwood Circular Basin', detail: 'Wax-finished solid hardwood bowl holding a 20mm uniform bed of fine contrasting silica sand.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 2,
+      priceRange: '$105 — $125 USD',
+      primaryChannels: ['Amazon Kinetic Art', 'Museum Science Shop Online'],
+      searchKeywords: ['Kinetic Sand Pendulum Gravity Art', 'Lissajous Harmonograph Desk Toy', 'Brass Sand Writer Physics Pendulum'],
+      antiFraudWarning: 'Avoid lightweight plastic trays that tip over easily. Look for solid turned hardwood bases with brass metalwork.',
+      directOutbound: { label: 'View on Amazon Kinetic Art', url: 'https://www.amazon.com', sourceType: 'Authorized Dealer' }
+    }
+  },
+  {
+    id: 'anm-084',
+    specimenCode: 'ETSY-METEORITE-RING // #1-ASTRONOMY',
+    title: 'Certified Authentic Gibeon Meteorite & Titanium Polished Band Ring',
+    category: 'WEARABLE_ANOMALIES',
+    curatorId: 'cr-algo-05',
+    weirdnessScore: 9.6,
+    priceValue: 225.00,
+    platform: 'Etsy',
+    salesRank: 1,
+    salesRankBadge: '#1 METEORITE JEWELRY (28K+ REVIEWS)',
+    scarcityBadge: '4.5 BILLION YEAR OLD RELIC',
+    heroImage: '/items/anm-084.jpg',
+    tagline: 'Hand-crafted comfort-fit ring inlaid with authentic etched Gibeon iron-nickel meteorite displaying natural octahedral Widmanstätten crystallization.',
+    tags: ['ETSY CURATED', 'GIBEON METEORITE', 'WIDMANSTATTEN PATTERN', 'TITANIUM CORE', 'COSMIC ARTIFACT'],
+    fieldObservation: {
+      unboxingLog: 'Packaged in a walnut jeweler gift box with signed certificate of authenticity and microfiber mineral care cloth.',
+      tactileFeedback: 'Silky smooth inner comfort-fit titanium bevel against the finger; subtle tactile crystalline ridges on the acid-etched meteorite channel.',
+      honestSnags: [
+        'Iron-nickel meteorites contain real iron; should not be worn while swimming in chlorinated pools or saltwater to prevent oxidation.',
+        'Requires an occasional light rub with mineral oil or Renaissance Wax to preserve the acid-etched luster against moisture.',
+        'Cannot be resized due to the rigid solid titanium outer liner; precise finger sizing is crucial prior to order.'
+      ],
+      curatorVerdict: 'Wearing an interstellar traveler that cooled over millions of years in the vacuum of deep space. The triangular lattice cannot be faked in any earthly foundry.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 35, label: 'Widmanstätten Lamellar Inlay', detail: 'Natural intersecting nickel-iron kamacite and taenite crystalline bands revealed through nitric acid etching.' },
+        { id: 'hs-2', x: 25, y: 65, label: 'Aircraft Grade Titanium Core', detail: 'Hypoallergenic, lightweight, and skin-neutral titanium inner liner providing lifetime structural stability.' },
+        { id: 'hs-3', x: 75, y: 65, label: 'Beveled Mirror-Polished Edges', detail: 'Precision chamfered border framing the raw cosmic texture with contemporary architectural elegance.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: '$210 — $260 USD',
+      primaryChannels: ['Etsy Artisan Metalsmiths', 'Certified Meteorite Collectors Network'],
+      searchKeywords: ['Authentic Gibeon Meteorite Ring Titanium', 'Widmanstatten Iron Meteorite Wedding Band', 'Real Space Rock Inlay Ring'],
+      antiFraudWarning: 'Laser-engraved fake patterns on steel are rampant online. Verify genuine crystalline depth with certified provenance papers.',
+      directOutbound: { label: 'Explore on Etsy Artisan Guild', url: 'https://www.etsy.com', sourceType: 'Independent Artisan' }
+    }
+  },
+  {
+    id: 'anm-085',
+    specimenCode: 'ALI-CYBER-TERMINAL // #1-HACK',
+    title: 'ClockworkPi DevTerm A06 Modular Portable Linux Cyberdeck Terminal',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-04',
+    weirdnessScore: 9.8,
+    priceValue: 318.00,
+    platform: 'AliExpress',
+    salesRank: 1,
+    salesRankBadge: '#1 MAKER CYBERDECK (12K+ SOLD)',
+    scarcityBadge: 'MODULAR LINUX RIG',
+    heroImage: '/items/anm-085.jpg',
+    tagline: 'Retro-futuristic handheld Linux terminal featuring an ultrawide 6.8-inch screen, 65% mechanical mini keyboard, and integrated thermal receipt printer.',
+    tags: ['ALIEXPRESS MAKER', 'CLOCKWORKPI DEVTERM', 'LINUX CYBERDECK', 'THERMAL PRINTER', 'OPEN HARDWARE'],
+    fieldObservation: {
+      unboxingLog: 'Arrives in plastic snap-sprues and circuit boards requiring roughly 45 minutes of fun assembly like a vintage model kit.',
+      tactileFeedback: 'Clicky tactile micro-switches with mini trackball navigation. The thermal printer spools paper with a nostalgic robotic buzz.',
+      honestSnags: [
+        'Requires Linux comfort (Debian/Ubuntu terminal commands) to configure custom scripts and Wi-Fi drivers.',
+        'Screen resolution is 1280x480 (super ultrawide aspect ratio); standard desktop windows may require horizontal scrolling.',
+        'Battery cells (dual 18650s) are often not included due to international air transport regulations.'
+      ],
+      curatorVerdict: 'The holy grail of portable computing fantasies. Pulling this out in a coffee shop to print terminal bash commands on thermal paper instantly stops conversations.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 25, label: '6.8-inch IPS Ultrawide Display', detail: '1280x480 pixel resolution 16:6 screen displaying full-width terminal lines and multi-pane code windows.' },
+        { id: 'hs-2', x: 50, y: 65, label: '65% Tactile QWERTY & Mini Trackball', detail: 'Custom micro-switch keycaps with Game Boy style D-pad, mini optical trackball, and dual shoulder buttons.' },
+        { id: 'hs-3', x: 85, y: 35, label: 'Embedded 58mm Thermal Printer Head', detail: 'Direct thermal receipt printing mechanism producing instant physical text readouts, retro pixel graphics, or code logs.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: '$300 — $350 USD',
+      primaryChannels: ['AliExpress Official Maker Store', 'ClockworkPi Factory Direct'],
+      searchKeywords: ['ClockworkPi DevTerm A06 Kit', 'Portable Linux Cyberdeck Handheld', 'DevTerm Ultrawide Terminal Keyboard'],
+      antiFraudWarning: 'Ensure purchasing the dual-core Cortex-A72 + quad-core A53 A06 processor version rather than slower legacy compute modules.',
+      directOutbound: { label: 'Inspect on AliExpress Maker Depot', url: 'https://www.aliexpress.com', sourceType: 'Authorized Dealer' }
+    }
+  },
+  {
+    id: 'anm-086',
+    specimenCode: 'MERC-VINTAGE-POLAROID // #1-RETRO',
+    title: '1977 Vintage Polaroid SX-70 Original Folding SLR Instant Land Camera',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-01',
+    weirdnessScore: 9.5,
+    priceValue: 265.00,
+    platform: 'Mercari',
+    salesRank: 1,
+    salesRankBadge: '#1 VINTAGE CAMERA VAULT',
+    scarcityBadge: 'ANALOG DESIGN MASTERPIECE',
+    heroImage: '/items/anm-086.jpg',
+    tagline: 'Brushed chrome and genuine top-grain tan leather folding single-lens reflex instant camera designed by Dr. Edwin Land.',
+    tags: ['MERCARI TOKYO', 'POLAROID SX-70', 'FOLDING SLR', 'VINTAGE ANALOG', 'EDWIN LAND DESIGN'],
+    fieldObservation: {
+      unboxingLog: 'Sourced from an estate collection in original leather hard case with original neck strap and vintage printed manual.',
+      tactileFeedback: 'Satisfying mechanical unfolding sound as the bellows lock into triangular pyramid posture. Split-image viewfinder focusing is razor-sharp.',
+      honestSnags: [
+        'Requires modern SX-70 film packs (160 ISO) from Polaroid Originals; sensitive to low indoor lighting without a flash bar.',
+        'Vintage gear trains must be treated with mechanical care; forcing the folding latch can damage the scissor linkage.',
+        'Film prints require 10-15 minutes in a dark pocket to fully develop their rich, warm analog chemistry colors.'
+      ],
+      curatorVerdict: 'One of the greatest industrial design achievements of the 20th century. Folding it flat into a pocket after taking an instant photo feels like sci-fi wizardry from 1972.',
+      hotspots: [
+        { id: 'hs-1', x: 45, y: 30, label: 'Four-Element 116mm f/8 Glass Lens', detail: 'Precision ground optical glass lens focusing down to a remarkable 10.4 inches for dramatic macro portraits.' },
+        { id: 'hs-2', x: 75, y: 45, label: 'Through-The-Lens SLR Viewfinder', detail: 'Complex folding Fresnel mirror system allowing true through-the-lens parallax-free framing and split-circle manual focus.' },
+        { id: 'hs-3', x: 48, y: 80, label: 'Brushed Chrome & Leather Folding Shell', detail: 'Fiberglass-reinforced polysulfone body plated with real chrome and fitted with tactile tan leather panels.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: '$240 — $290 USD',
+      primaryChannels: ['Mercari Japan Vintage Optics', 'Tokyo Classic Camera Resellers'],
+      searchKeywords: ['Polaroid SX-70 Original Folding SLR', 'Vintage SX70 Chrome Brown Leather', 'Land Camera SX 70 Tested Functional'],
+      antiFraudWarning: 'Always confirm the motor ejects and the light meter selenium/electric eye is tested before buying unverified "as-is" estate units.',
+      directOutbound: { label: 'Source on Mercari Tokyo Optics', url: 'https://jp.mercari.com', sourceType: 'Boutique Reseller' }
+    }
+  },
+  {
+    id: 'anm-087',
+    specimenCode: 'RAK-TERP-SYNTH // #1-AUDIO',
+    title: 'Befaco DIY Noise Plethora Dual Digital Multimode Eurorack Synthesizer Module',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-04',
+    weirdnessScore: 9.6,
+    priceValue: 285.00,
+    platform: 'Rakuten',
+    salesRank: 1,
+    salesRankBadge: '#1 AKIHABARA MODULAR HIT',
+    scarcityBadge: 'MODULAR SOUND ENGINE',
+    heroImage: '/items/anm-087.jpg',
+    tagline: '14HP Eurorack digital sound generator dedicated to textured noise algorithms, metallic screech clusters, and granular glitch percussion.',
+    tags: ['RAKUTEN JAPAN', 'EURORACK MODULAR', 'BEFACO NOISE', 'INDUSTRIAL AUDIO', 'SYNTHESIS ENGINE'],
+    fieldObservation: {
+      unboxingLog: 'Housed in anti-static silver pouch with braided ribbon power cable, knurled Befaco Befaco-red Bananauts, and M3 mounting screws.',
+      tactileFeedback: 'Industrial-grade knurled aluminum knobs turn with stiff resistance. Patch cables slide into 3.5mm jacks with crisp mechanical snap.',
+      honestSnags: [
+        'Requires a powered Eurorack synthesizer skiff chassis and standard bipolar power supply (+12V/-12V).',
+        'Capable of extreme sub-bass rumble and piercing ultra-high shrieks; keep monitor speaker volumes padded during patch design.',
+        'Learning all 30 internal DSP noise algorithms requires referencing the front-panel cheat card.'
+      ],
+      curatorVerdict: 'The quintessential dark sonic playground for cyberpunk film sound design. Twisting the filter resonance yields industrial drone magic.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 22, label: 'Dual Digital Noise Algorithmic Banks', detail: 'Dedicated microcontrollers running granular white/pink/digital noise, metallic rain, and FM crushed noise loops.' },
+        { id: 'hs-2', x: 50, y: 55, label: 'Dual Multi-Mode Analog Filter Circuits', detail: 'Voltage-controlled low-pass and high-pass filters capable of sculpting razor-sharp resonant acoustic peaks.' },
+        { id: 'hs-3', x: 50, y: 88, label: 'Gold-Plated CV Modulation Patch Array', detail: '12 CV patch inputs accepting 0-10V control voltages for automated modulation of pitch, filter cutoff, and crunch.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 3,
+      priceRange: '$270 — $310 USD',
+      primaryChannels: ['Rakuten Modular Pro Gear', 'Clockface Modular Tokyo'],
+      searchKeywords: ['Befaco Noise Plethora Eurorack', 'Eurorack Digital Noise Synth Module', 'Befaco Modular Sound Generator 14HP'],
+      antiFraudWarning: 'Check whether purchasing a pre-assembled factory built unit versus an unassembled DIY circuit board kit.',
+      directOutbound: { label: 'Inspect on Rakuten Modular Tokyo', url: 'https://www.rakuten.co.jp', sourceType: 'Authorized Dealer' }
+    }
+  },
+  {
+    id: 'anm-088',
+    specimenCode: 'ETSY-TRILOBITE-FOSSIL // #1-PALEO',
+    title: 'Museum Grade Complete Spiny Paradoxides Trilobite Fossil in Shale Matrix',
+    category: 'ZINES_RELICS',
+    curatorId: 'cr-algo-05',
+    weirdnessScore: 9.7,
+    priceValue: 240.00,
+    platform: 'Etsy',
+    salesRank: 1,
+    salesRankBadge: '#1 MUSEUM CURATED PALEO',
+    scarcityBadge: '500 MILLION YEAR OLD FOSSIL',
+    heroImage: '/items/anm-088.jpg',
+    tagline: 'Authentic Cambrian-period marine arthropod fossil preserved with 3D exoskeleton relief and delicate pleural spines in native grey shale.',
+    tags: ['ETSY CURATED', 'TRILOBITE FOSSIL', 'CAMBRIAN ERA', 'NATURAL HISTORY', '500M YEARS OLD'],
+    fieldObservation: {
+      unboxingLog: 'Arrives secured in custom wood-framed display easel with velvet backer, geological provenance report, and UV authenticity seal.',
+      tactileFeedback: 'Dense natural sedimentary shale stone (1.2kg). The fossilized carapace displays dark caramel mineralization against matte slate.',
+      honestSnags: [
+        'Natural stone matrix has raw geological edges; should be handled by the sides to avoid chipping brittle shale layers.',
+        'Ancient marine specimens are irreplaceable natural artifacts; must not be cleaned with water or household chemical solvents.',
+        'Slight natural quarry excavation fractures on the matrix are normal evidence of geological extraction.'
+      ],
+      curatorVerdict: 'Touching an organism that scurried along ocean floors half a billion years before the first dinosaur walked. The ultimate desktop memento mori.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 25, label: 'Cephalic Head Shield & Holochroal Eyes', detail: 'Fossilized compound calcite crystal eyes preserved with micro-lens facet structures intact.' },
+        { id: 'hs-2', x: 50, y: 55, label: 'Multi-Segmented Articulated Thorax', detail: 'Over 14 individual articulated chitin segments fossilized through iron-sulfide and calcium-phosphate replacement.' },
+        { id: 'hs-3', x: 50, y: 88, label: 'Native Cambrian Sedimentary Slate Matrix', detail: 'Authentic 500-million-year-old Moroccan Anti-Atlas mountain shale displaying natural quarry chisel marks.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: '$220 — $275 USD',
+      primaryChannels: ['Etsy Certified Paleontology Vaults', 'International Fossil Dealers Association'],
+      searchKeywords: ['Authentic Trilobite Fossil Shale Matrix', 'Cambrian Paradoxides Trilobite Specimen', 'Real Prehistoric Arthropod Fossil Stone'],
+      antiFraudWarning: 'Watch out for poured resin and cast plaster fakes from tourist markets. Look for authentic mineral crystallization under UV and microscope.',
+      directOutbound: { label: 'Explore on Etsy Paleontology Vault', url: 'https://www.etsy.com', sourceType: 'Independent Artisan' }
+    }
+  },
+  {
+    id: 'anm-089',
+    specimenCode: 'BB-AUDIO-TECHNICA-LP60 // #1-VINYL',
+    title: 'Audio-Technica AT-LP60X-GM Fully Automatic Belt-Drive Stereo Turntable',
+    category: 'UNCANNY_DOMESTIC',
+    curatorId: 'cr-algo-01',
+    weirdnessScore: 9.1,
+    priceValue: 149.00,
+    platform: 'Best Buy',
+    salesRank: 1,
+    salesRankBadge: '#1 BEST SELLER HOME AUDIO',
+    scarcityBadge: 'HI-FI ANALOG STANDARD',
+    heroImage: '/items/anm-089.jpg',
+    tagline: 'Gunmetal finished belt-drive turntable with redesigned tonearm base, Dual Magnet phono cartridge, and built-in switchable preamplifier.',
+    tags: ['BEST BUY #1', 'AUDIO-TECHNICA', 'VINYL TURNTABLE', 'HI-FI ANALOG', 'DUAL MAGNET CARTRIDGE'],
+    fieldObservation: {
+      unboxingLog: 'Contains die-cast aluminum platter, rubber drive belt, clear hinged dust cover, 45 RPM adapter, and gold-plated RCA output cables.',
+      tactileFeedback: 'Feather-smooth automatic push-button start and stop. The dampened cueing lever drops the diamond stylus with zero surface bounce.',
+      honestSnags: [
+        'Belt installation on the motor pulley requires careful looping through the platter access hole during initial setup.',
+        'Lightweight resonance chassis benefits from being placed on an isolation pad if used near heavy subwoofer bass.',
+        'Requires keeping records dust-free with an anti-static carbon fiber brush to prevent vinyl pops.'
+      ],
+      curatorVerdict: 'The quintessential gateway to the rich, warm, uncompressed sound of vinyl. Flawless tracking and zero fuss operation make it an essential listening room anchor.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 35, label: 'Die-Cast Anti-Resonance Aluminum Platter', detail: 'Precision balanced rotational platter driven by low-vibration DC servo motor delivering stable 33-1/3 and 45 RPM speeds.' },
+        { id: 'hs-2', x: 78, y: 55, label: 'Integral Dual Magnet Phono Cartridge', detail: 'Audio-Technica ATN3600L replaceable 0.6 mil conical diamond stylus tracking record grooves with high fidelity.' },
+        { id: 'hs-3', x: 50, y: 85, label: 'Gunmetal Anti-Vibration Base Enclosure', detail: 'Damped composite chassis with integrated switchable phono/line pre-amp for direct hookup to active speakers.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 1,
+      priceRange: '$139 — $159 USD',
+      primaryChannels: ['Best Buy Audio', 'Audio-Technica Official Store'],
+      searchKeywords: ['Audio-Technica AT-LP60X Turntable', 'Automatic Belt Drive Record Player', 'AT-LP60X-GM Gunmetal Vinyl Player'],
+      antiFraudWarning: 'Ensure receiving the updated "X" series model with revised tonearm resonance damping and external power brick.',
+      directOutbound: { label: 'View on Best Buy Audio', url: 'https://www.bestbuy.com', sourceType: 'Authorized Dealer' }
+    }
+  },
+  {
+    id: 'anm-090',
+    specimenCode: 'ALL-SOVIET-VFD-CALC // #1-COLDWAR',
+    title: '1984 Soviet Elektronika MK-52 Programmable Cold-War VFD Display Calculator',
+    category: 'CYBER_HARDWARE',
+    curatorId: 'cr-algo-01',
+    weirdnessScore: 9.8,
+    priceValue: 185.00,
+    platform: 'Allegro',
+    salesRank: 1,
+    salesRankBadge: '#1 COLD WAR VINTAGE RELIC',
+    scarcityBadge: 'SOVIET SPACE ERA SPECIMEN',
+    heroImage: '/items/anm-090.jpg',
+    tagline: 'Decommissioned 1980s Soviet engineering programmable calculator with vacuum fluorescent emerald-green tube display and EEPROM memory slot.',
+    tags: ['ALLEGRO POLAND', 'SOVIET ELECTRONICS', 'MK-52 CALCULATOR', 'VFD DISPLAY', 'COLD WAR RELIC'],
+    fieldObservation: {
+      unboxingLog: 'Shipped in original cyrillic stamped box with rigid vinyl sleeve, schematic fold-out diagram, and Soviet USSR quality inspection stamp.',
+      tactileFeedback: 'Dense mechanical keys with substantial click travel. The green VFD numeric tubes glow intensely with zero backlight bleed.',
+      honestSnags: [
+        'Keycaps are printed entirely in Cyrillic Russian characters; requires learning RPN (Reverse Polish Notation) logic stack.',
+        'Requires 4x AA batteries or dedicated 5V power barrel adapter; draws more current than modern CMOS LCD calculators.',
+        'Vintage 1980s microchips calculate complex trigonometric equations with a noticeable charming sub-second delay.'
+      ],
+      curatorVerdict: 'A piece of space-age history flown aboard the Soviet Soyuz TM-7 space flight as a backup navigation computer. The emerald VFD display is utterly mesmerizing.',
+      hotspots: [
+        { id: 'hs-1', x: 50, y: 25, label: '12-Digit Vacuum Fluorescent Emerald VFD', detail: 'High-vacuum multi-segment phosphor tubes emitting 505nm neon emerald glow with crisp Soviet typography.' },
+        { id: 'hs-2', x: 50, y: 65, label: 'Cyrillic Reverse-Polish Numeric Keypad', detail: 'Tactile dual-injection molded plastic keys with Cyrillic function labels (В/О, С/П, F, K, ИП).' },
+        { id: 'hs-3', x: 82, y: 30, label: 'Rear Non-Volatile EEPROM Slot', detail: 'Pioneering internal 512-byte magnetic core / EEPROM storage saving up to four 105-step program routines without battery power.' }
+      ]
+    },
+    sourcingTelemetry: {
+      huntDifficulty: 4,
+      priceRange: '$170 — $210 USD',
+      primaryChannels: ['Allegro Poland Vintage Electronics', 'Eastern European Surplus Auctions'],
+      searchKeywords: ['Soviet Elektronika MK-52 Calculator', 'USSR Programmable VFD Calculator', 'Cold War Elektronika MK 52 Space'],
+      antiFraudWarning: 'Verify all 12 VFD segments light evenly and the EEPROM memory chip switch passes power-on self-test without burnt resistors.',
+      directOutbound: { label: 'Explore on Allegro Surplus Vault', url: 'https://allegro.pl', sourceType: 'Boutique Reseller' }
+    }
+  }
+];
+
+
 // All available batches in scheduled rotation (anchored to Monday 12:00 PM JST / 03:00 UTC)
 export const BATCH_ROTATION = [
   { name: 'Batch 1 (Oct 05, 2026)', items: BATCH_OCT_05, dropDateStr: 'OCT 05, 2026' },
@@ -3515,6 +4107,7 @@ export const BATCH_ROTATION = [
   { name: 'Batch 3 (Oct 19, 2026)', items: BATCH_OCT_19, dropDateStr: 'OCT 19, 2026' },
   { name: 'Batch 4 (Oct 26, 2026)', items: BATCH_OCT_26, dropDateStr: 'OCT 26, 2026' },
   { name: 'Batch 5 (Nov 02, 2026)', items: BATCH_NOV_02, dropDateStr: 'NOV 02, 2026' },
+  { name: 'Batch 6 (Nov 09, 2026)', items: BATCH_NOV_09, dropDateStr: 'NOV 09, 2026' },
 ];
 
 /**
@@ -3607,7 +4200,7 @@ export function main() {
   fs.writeFileSync(summaryFilePath, summaryMd, 'utf-8');
   console.log(`Summary written to: ${summaryFilePath}`);
 
-  // Write items.ts with all 5 weekly drops
+  // Write items.ts with all 6 weekly drops
   const updatedContent = `import type { OddityItem } from './types';
 
 // ============================================================================
@@ -3622,6 +4215,8 @@ export function main() {
 type RawOdditySeed = Omit<OddityItem, 'dateLogged' | 'gallery'>;
 
 // Active Drop Snapshot: ${todayStr} (${selectedBatch.name})
+const BATCH_POOL_NOV_09: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_09, null, 2)};
+
 const BATCH_POOL_NOV_02: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_02, null, 2)};
 
 const BATCH_POOL_OCT_26: RawOdditySeed[] = ${JSON.stringify(BATCH_OCT_26, null, 2)};
@@ -3657,6 +4252,11 @@ const SCHEDULED_WEEKLY_DROPS: { unlockUtcMs: number; dateLogged: string; pool: R
     unlockUtcMs: Date.UTC(2026, 10, 2, 3, 0, 0), // Monday, Nov 02, 2026 12:00 PM JST
     dateLogged: 'NOV 02, 2026',
     pool: BATCH_POOL_NOV_02,
+  },
+  {
+    unlockUtcMs: Date.UTC(2026, 10, 9, 3, 0, 0), // Monday, Nov 09, 2026 12:00 PM JST
+    dateLogged: 'NOV 09, 2026',
+    pool: BATCH_POOL_NOV_09,
   },
 ];
 
