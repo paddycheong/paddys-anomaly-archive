@@ -11,7 +11,7 @@ import type { OddityItem } from './types';
 
 type RawOdditySeed = Omit<OddityItem, 'dateLogged' | 'gallery'>;
 
-// Active Drop Snapshot: NOV 16, 2026 (Batch 1 (Oct 05, 2026))
+// Active Drop Snapshot: NOV 23, 2026 (Batch 2 (Oct 12, 2026))
 const BATCH_POOL_NOV_09: RawOdditySeed[] = [
   {
     "id": "anm-076",
