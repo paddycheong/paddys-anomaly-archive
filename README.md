@@ -23,10 +23,13 @@ The Anomaly Archive features a zero-maintenance, automated weekly drop pipeline 
    - 3 Interactive Teardown Hotspots (exact percentage pins on product photography)
    - Field Observation Dossier (Unboxing physical log, haptic feedback, 2-3 honest snags/flaws, curator verdict)
    - Sourcing Radar & Telemetry (Hunt difficulty 1-5, price spectrum, search keywords, anti-counterfeit warnings, direct outbound link)
-5. **Human-in-the-Loop Review**:
+5. **Mandatory Post-Update Image-Text Verification (Rule 5)**:
+   - After every weekly drop or catalog update, every newly added specimen MUST undergo both automated integrity verification (`python scripts/verify_catalog_uniqueness.py`) and visual image-text consistency inspection before release.
+   - Each photograph must be authentic real-world photography (zero AI generation, zero image reuse) matching the exact brand, model, and physical mechanism described in the title and field observation dossier.
+   - See [CURATION_RULES.md](./CURATION_RULES.md) for the complete 5-rule protocol and pre-release checklist.
+6. **Automated Deployment**:
    - The engine compiles and runs verification tests.
-   - Automatically opens a formatted Pull Request on GitHub with the drop markdown summary.
-   - Upon clicking **Merge pull request**, Cloudflare Workers Builds automatically compiles and deploys the new artifacts in ~20 seconds with zero downtime.
+   - Commits and pushes directly to `main` (including updated `src/data/items.ts`, `public/items/`, and `scripts/latest-drop-summary.md`), triggering Cloudflare Workers Builds automatically in ~20 seconds with zero downtime.
 
 ---
 

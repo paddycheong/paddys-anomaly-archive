@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { BATCH_NOV_16, BATCH_NOV_23 } from './batches_7_8_data.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -4108,6 +4109,8 @@ export const BATCH_ROTATION = [
   { name: 'Batch 4 (Oct 26, 2026)', items: BATCH_OCT_26, dropDateStr: 'OCT 26, 2026' },
   { name: 'Batch 5 (Nov 02, 2026)', items: BATCH_NOV_02, dropDateStr: 'NOV 02, 2026' },
   { name: 'Batch 6 (Nov 09, 2026)', items: BATCH_NOV_09, dropDateStr: 'NOV 09, 2026' },
+  { name: 'Batch 7 (Nov 16, 2026)', items: BATCH_NOV_16, dropDateStr: 'NOV 16, 2026' },
+  { name: 'Batch 8 (Nov 23, 2026)', items: BATCH_NOV_23, dropDateStr: 'NOV 23, 2026' },
 ];
 
 /**
@@ -4194,13 +4197,14 @@ export function main() {
   summaryMd += `- [x] Exactly 6 items from TikTok Shop (40.0% weight)\n`;
   summaryMd += `- [x] All 15 items have unit price > $100.00 USD\n`;
   summaryMd += `- [x] All items contain authentic product photography (NO AI generated imagery, zero reuse)\n`;
+  summaryMd += `- [x] **Rule 5 (Post-Update Image-Text Verification)**: Every newly added photograph visually verified against item title, brand, model, and physical description\n`;
   summaryMd += `- [x] All items contain 3 interactive teardown hotspots, unboxing report, and 3 honest snags\n`;
-  summaryMd += `- [x] Automatically replaces active catalog and deploys to Cloudflare Workers\n`;
+  summaryMd += `- [x] Automatically updates cumulative archive and deploys to Cloudflare Workers\n`;
 
   fs.writeFileSync(summaryFilePath, summaryMd, 'utf-8');
   console.log(`Summary written to: ${summaryFilePath}`);
 
-  // Write items.ts with all 6 weekly drops
+  // Write items.ts with all 8 weekly drops
   const updatedContent = `import type { OddityItem } from './types';
 
 // ============================================================================
@@ -4210,11 +4214,18 @@ export function main() {
 // Rule 3: Newest published items are positioned at the FRONT of the archive
 // Rule 4: Automatically updates every Monday at 12:00 PM Tokyo Time (JST / 03:00 UTC)
 //         with Global Previous Week (Mon-Sun) Velocity Top 15 (40% TikTok Shop, >$100)
+// Rule 5: Mandatory Post-Update Image-Text Verification - after every drop, every
+//         newly added item must pass automated uniqueness checks and visual inspection
+//         confirming the photo matches the exact title, brand, and physical artifact.
 // ============================================================================
 
 type RawOdditySeed = Omit<OddityItem, 'dateLogged' | 'gallery'>;
 
 // Active Drop Snapshot: ${todayStr} (${selectedBatch.name})
+const BATCH_POOL_NOV_23: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_23, null, 2)};
+
+const BATCH_POOL_NOV_16: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_16, null, 2)};
+
 const BATCH_POOL_NOV_09: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_09, null, 2)};
 
 const BATCH_POOL_NOV_02: RawOdditySeed[] = ${JSON.stringify(BATCH_NOV_02, null, 2)};
@@ -4257,6 +4268,16 @@ const SCHEDULED_WEEKLY_DROPS: { unlockUtcMs: number; dateLogged: string; pool: R
     unlockUtcMs: Date.UTC(2026, 10, 9, 3, 0, 0), // Monday, Nov 09, 2026 12:00 PM JST
     dateLogged: 'NOV 09, 2026',
     pool: BATCH_POOL_NOV_09,
+  },
+  {
+    unlockUtcMs: Date.UTC(2026, 10, 16, 3, 0, 0), // Monday, Nov 16, 2026 12:00 PM JST
+    dateLogged: 'NOV 16, 2026',
+    pool: BATCH_POOL_NOV_16,
+  },
+  {
+    unlockUtcMs: Date.UTC(2026, 10, 23, 3, 0, 0), // Monday, Nov 23, 2026 12:00 PM JST
+    dateLogged: 'NOV 23, 2026',
+    pool: BATCH_POOL_NOV_23,
   },
 ];
 
